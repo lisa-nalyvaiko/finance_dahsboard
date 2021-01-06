@@ -56,8 +56,8 @@ df['AM'] = df['AM'].astype(str).str.replace('IT', 'IV', regex=False)
 total_revenue = '{0:,}'.format(int(round(df['Total price'].sum(),0)))
 
 #plotly dash app
-external_stylesheets = ['https://codepen.io/lisa-nalyvaiko/pen/GRjdwrL.css']
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+#external_stylesheets = ['https://codepen.io/lisa-nalyvaiko/pen/GRjdwrL.css']
+app = dash.Dash(__name__)
 server = app.server
 indicators_list = ['Client', 'Main Developer', 'Location', 'Seniority', 'Type', 'AM', 'Sales person']
 

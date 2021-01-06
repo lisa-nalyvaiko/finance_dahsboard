@@ -55,6 +55,18 @@ df['AM'] = df['AM'].astype(str).str.replace('IT', 'IV', regex=False)
 
 total_revenue = '{0:,}'.format(int(round(df['Total price'].sum(),0)))
 
+#Clients stats and visualisation
+clients_by_revenue = df.groupby('Client',as_index=False) \
+    .agg({'Total price':'sum'}) \
+    .sort_values(by='Total price',ascending=False)
+clients_by_revenue['Total price'] = clients_by_revenue['Total price'].astype(int)
+top_10_clients = clients_by_revenue.head(10)
+fig_clients = px.bar(
+                    x=top_10_clients['Client'],
+                    y=top_10_clients['Total price'],
+                    labels={'x':'Client', 'y':'Revenue'},
+                    color_discrete_sequence=["#a51140", "#a51140"])
+
 #plotly dash app
 #external_stylesheets = ['https://codepen.io/lisa-nalyvaiko/pen/GRjdwrL.css']
 app = dash.Dash(__name__)
@@ -67,6 +79,7 @@ app.layout = html.Div(children=[
     html.Div(children='''
         Interactive visualisation of PU revenue in 2020.
     '''),
+
     html.Div(children=f'''
         Our total revenue in 2020 - ${total_revenue}
     '''),
@@ -75,12 +88,19 @@ app.layout = html.Div(children=[
         dcc.Dropdown(
             id='xaxis-column',
             options=[{'label': i, 'value': i} for i in indicators_list],
-            value=indicators_list[2]
+            value=indicators_list[3]
         )]),
 
     dcc.Graph(
         id='revenue_graph'
-    )
+    ),
+
+    html.H3(children='Top 10 clients by revenue'),
+
+    dcc.Graph(
+        id='top_clients_graph',
+        figure=fig_clients)
+
 ])
 
 

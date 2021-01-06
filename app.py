@@ -8,6 +8,7 @@ import plotly.express as px
 
 path_to_credential = './google_credentials.json'
 #sa = SpreadsheetApp(from_env=True)
+#google sheets auth & pulling data from the spreadsheet
 table_name = 'Invoicing Statistics 2020'
 spr_id = '1gRd73DKLWuVGOUoOu9sv7iiym_JyDovVjOu7bT1aZO8'
 spreadsheet = SpreadsheetApp(path_to_credential).open_by_id(spr_id)
@@ -27,7 +28,7 @@ headers = data.pop(1)
 
 # Create df
 df = pd.DataFrame(data, columns=headers)
-
+#cleaning data
 df = df.drop(columns=['Comments', '', '',
                       'What stats?', 'Value', '', '', '', '', '', ''])
 df = df.drop(0)
@@ -36,6 +37,7 @@ df = df.replace("", nan_value)
 df.dropna(subset=["Project Name"], inplace=True)
 df = df[~df["Client"].str.contains('Client')]
 
+#changing data types
 df['Date confirmed'] = df['Date confirmed'].astype(float)
 df['Date confirmed'] = pd.to_datetime(df['Date confirmed'], unit='d', origin='1900-01-01')
 df['Hours sold'] = df['Hours sold'].astype(float)
@@ -51,16 +53,22 @@ df['Proft, $'] = df['Proft, $'].astype(float).round(2)
 df['Profit, %'] = df['Profit, %'].astype(float).round(2) * 100
 df['AM'] = df['AM'].astype(str).str.replace('IT', 'IV', regex=False)
 
+total_revenue = '{0:,}'.format(int(round(df['Total price'].sum(),0)))
+
+#plotly dash app
 external_stylesheets = ['https://codepen.io/lisa-nalyvaiko/pen/GRjdwrL.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 indicators_list = ['Client', 'Main Developer', 'Location', 'Seniority', 'Type', 'AM', 'Sales person']
 
 app.layout = html.Div(children=[
-    html.H1(children='Testing Dash'),
+    html.H1(children='PU Revenue 2020'),
 
     html.Div(children='''
-        Trying to make a dashboard for invoicing stats.
+        Interactive visualisation of PU revenue in 2020.
+    '''),
+    html.Div(children=f'''
+        Our total revenue in 2020 - ${total_revenue}
     '''),
 
     html.Div([

@@ -1,35 +1,17 @@
-# import requests
-# from requests.auth import HTTPBasicAuth
 import pandas as pd
-# import numpy as np
-# from datetime import datetime
-# from dateutil.relativedelta import relativedelta
-import gspread
-# from df2gspread import df2gspread as d2g
-from oauth2client.service_account import ServiceAccountCredentials
-# from gspread_dataframe import (get_as_dataframe, set_with_dataframe)
-# import json
 from sheetfu import SpreadsheetApp
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 import plotly.express as px
+from dotenv import load_dotenv
+load_dotenv()
 
-# read invoicing statistics table to pandas
-# Specify path to your file with credentials
-# Specify name of table in google sheets
-
-scope = ['https://spreadsheets.google.com/feeds',
-         'https://www.googleapis.com/auth/drive']
-path_to_credential = '/Users/lisanalyvaiko/Downloads/google_credentials.json'
-credentials = ServiceAccountCredentials.from_json_keyfile_name(path_to_credential, scope)
-gc = gspread.authorize(credentials)
-# Specify name of table in google sheets
+sa = SpreadsheetApp(from_env=True)
 table_name = 'Invoicing Statistics 2020'
 spr_id = '1gRd73DKLWuVGOUoOu9sv7iiym_JyDovVjOu7bT1aZO8'
-spreadsheet = SpreadsheetApp(path_to_credential).open_by_id(spr_id)
-
+spreadsheet = sa.open_by_id(spr_id)
 needed_sheets = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',
                  'November', 'December']
 month_sheets = [
@@ -69,13 +51,6 @@ df['Cost, total'] = df['Cost, total'].astype(float).round(2)
 df['Proft, $'] = df['Proft, $'].astype(float).round(2)
 df['Profit, %'] = df['Profit, %'].astype(float).round(2) * 100
 df['AM'] = df['AM'].astype(str).str.replace('IT', 'IV', regex=False)
-
-# revenue_by_type = df.groupby('Type',as_index=False) \
-#                   .agg({'Total price':'sum'})
-# x = revenue_by_type['Type']
-# y = revenue_by_type['Total price']
-
-# fig = px.bar(x=x, y=y, labels={'x':'work type', 'y':'revenue'})
 
 external_stylesheets = ['https://codepen.io/lisa-nalyvaiko/pen/GRjdwrL.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)

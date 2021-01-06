@@ -6,10 +6,11 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 import plotly.express as px
 
-sa = SpreadsheetApp(from_env=True)
+path_to_credential = './google_credentials.json'
+#sa = SpreadsheetApp(from_env=True)
 table_name = 'Invoicing Statistics 2020'
 spr_id = '1gRd73DKLWuVGOUoOu9sv7iiym_JyDovVjOu7bT1aZO8'
-spreadsheet = sa.open_by_id(spr_id)
+spreadsheet = SpreadsheetApp(path_to_credential).open_by_id(spr_id)
 needed_sheets = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',
                  'November', 'December']
 month_sheets = [

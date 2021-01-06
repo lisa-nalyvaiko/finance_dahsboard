@@ -39,7 +39,7 @@ df = df[~df["Client"].str.contains('Client')]
 
 #changing data types
 df['Date confirmed'] = df['Date confirmed'].astype(float)
-df['Date confirmed'] = pd.to_datetime(df['Date confirmed'], unit='d', origin='1900-01-01')
+df['Date confirmed'] = pd.to_datetime(df['Date confirmed'], unit='d', origin='1899-12-30')
 df['Hours sold'] = df['Hours sold'].astype(float)
 df['Total time spent'] = df['Total time spent'].astype(str).str.replace(',', '.', regex=False)
 df['Total time spent'] = df['Total time spent'].astype(float)

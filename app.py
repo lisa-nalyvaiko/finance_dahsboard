@@ -5,54 +5,55 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 import plotly.express as px
+#
+# path_to_credential = './google_credentials.json'
+# #sa = SpreadsheetApp(from_env=True)
+# #google sheets auth & pulling data from the spreadsheet
+# table_name = 'Invoicing Statistics 2020'
+# spr_id = '1gRd73DKLWuVGOUoOu9sv7iiym_JyDovVjOu7bT1aZO8'
+# spreadsheet = SpreadsheetApp(path_to_credential).open_by_id(spr_id)
+# needed_sheets = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',
+#                  'November', 'December']
+# month_sheets = [
+#     sheet for sheet in spreadsheet.sheets
+#     if sheet.name in needed_sheets
+# ]
+# data = []
+# for month_sheet in month_sheets:
+#     data_range = month_sheet.get_data_range()
+#     values = data_range.get_values()
+#     for row in values:
+#         data.append(row)
+# headers = data.pop(1)
+#
+# # Create df
+# df = pd.DataFrame(data, columns=headers)
+# #cleaning data
+# df = df.drop(columns=['Comments', '', '',
+#                       'What stats?', 'Value', '', '', '', '', '', ''])
+# df = df.drop(0)
+# nan_value = float("NaN")
+# df = df.replace("", nan_value)
+# df.dropna(subset=["Project Name"], inplace=True)
+# df = df[~df["Client"].str.contains('Client')]
+#
+# #changing data types
+# df['Date confirmed'] = df['Date confirmed'].astype(float)
+# df['Date confirmed'] = pd.to_datetime(df['Date confirmed'], unit='d', origin='1899-12-30')
+# df['Hours sold'] = df['Hours sold'].astype(float)
+# df['Total time spent'] = df['Total time spent'].astype(str).str.replace(',', '.', regex=False)
+# df['Total time spent'] = df['Total time spent'].astype(float)
+# df['Rate'] = df['Rate'].astype(str).str.replace(',', '.', regex=False)
+# df['Rate'] = df['Rate'].astype(str).str.replace('$', '', regex=False)
+# df['Rate'] = df['Rate'].astype(float).round(2)
+# df['Total price'] = df['Total price'].astype(float)
+# df['Cost, h'] = df['Cost, h'].astype(float).round(2)
+# df['Cost, total'] = df['Cost, total'].astype(float).round(2)
+# df['Proft, $'] = df['Proft, $'].astype(float).round(2)
+# df['Profit, %'] = df['Profit, %'].astype(float).round(2) * 100
+# df['AM'] = df['AM'].astype(str).str.replace('IT', 'IV', regex=False)
 
-path_to_credential = './google_credentials.json'
-#sa = SpreadsheetApp(from_env=True)
-#google sheets auth & pulling data from the spreadsheet
-table_name = 'Invoicing Statistics 2020'
-spr_id = '1gRd73DKLWuVGOUoOu9sv7iiym_JyDovVjOu7bT1aZO8'
-spreadsheet = SpreadsheetApp(path_to_credential).open_by_id(spr_id)
-needed_sheets = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',
-                 'November', 'December']
-month_sheets = [
-    sheet for sheet in spreadsheet.sheets
-    if sheet.name in needed_sheets
-]
-data = []
-for month_sheet in month_sheets:
-    data_range = month_sheet.get_data_range()
-    values = data_range.get_values()
-    for row in values:
-        data.append(row)
-headers = data.pop(1)
-
-# Create df
-df = pd.DataFrame(data, columns=headers)
-#cleaning data
-df = df.drop(columns=['Comments', '', '',
-                      'What stats?', 'Value', '', '', '', '', '', ''])
-df = df.drop(0)
-nan_value = float("NaN")
-df = df.replace("", nan_value)
-df.dropna(subset=["Project Name"], inplace=True)
-df = df[~df["Client"].str.contains('Client')]
-
-#changing data types
-df['Date confirmed'] = df['Date confirmed'].astype(float)
-df['Date confirmed'] = pd.to_datetime(df['Date confirmed'], unit='d', origin='1899-12-30')
-df['Hours sold'] = df['Hours sold'].astype(float)
-df['Total time spent'] = df['Total time spent'].astype(str).str.replace(',', '.', regex=False)
-df['Total time spent'] = df['Total time spent'].astype(float)
-df['Rate'] = df['Rate'].astype(str).str.replace(',', '.', regex=False)
-df['Rate'] = df['Rate'].astype(str).str.replace('$', '', regex=False)
-df['Rate'] = df['Rate'].astype(float).round(2)
-df['Total price'] = df['Total price'].astype(float)
-df['Cost, h'] = df['Cost, h'].astype(float).round(2)
-df['Cost, total'] = df['Cost, total'].astype(float).round(2)
-df['Proft, $'] = df['Proft, $'].astype(float).round(2)
-df['Profit, %'] = df['Profit, %'].astype(float).round(2) * 100
-df['AM'] = df['AM'].astype(str).str.replace('IT', 'IV', regex=False)
-
+df = pd.read_csv('./revenue.csv')
 total_revenue = '{0:,}'.format(int(round(df['Total price'].sum(),0)))
 
 #Clients stats and visualisation
@@ -76,12 +77,13 @@ indicators_list = ['Client', 'Main Developer', 'Location', 'Seniority', 'Type', 
 app.layout = html.Div(children=[
     html.H1(children='PU Revenue 2020'),
 
-    html.Div(children='''
-        Interactive visualisation of PU revenue in 2020.
-    '''),
+    dcc.Markdown(
+        '''
+        #### Interactive visualisation of PU revenue in 2020.
+        '''),
 
-    html.Div(children=f'''
-        Our total revenue in 2020 - ${total_revenue}
+    dcc.Markdown(f'''
+        Our total revenue in 2020 - **${total_revenue}**
     '''),
 
     html.Div([

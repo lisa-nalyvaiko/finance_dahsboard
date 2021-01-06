@@ -1,0 +1,666 @@
+Date confirmed,Project Name,Client,New client?,Main Developer,Location,Seniority,Type,AM,Hours sold,Total time spent,Rate,Total price,"Cost, h","Cost, total","Proft, $","Profit, %",Sales person
+44166.0,Middle Retainer ,Memira Holding AB,no,Sergei Semeniuk,Odesa,Middle,Retainer,IV,168,168,20.833333333333332,3500,18.58643353174603,3122.5208333333335,377.4791666666665,0.12088923879611153,Arvid
+44166.0,DJourney Discovery (1st prepayment),DJourney AB,yes,Oleh Draganchuk,Ivano,,FP,AP,27,27,,1068,18,486,582,1.1975308641975309,Bjorn
+44166.0,Senior retainer (D.Chekulaev),Emazing-Retailing-Europe,no,Dmitriy Chekulaiev,Poltava,Senior,Retainer,AR,168,168,23.8,4000,20.104290674603174,3377.520833333333,622.479166666667,0.18430061497276737,Semyon
+44166.0,Junior retainer (A.Veklenko),Studio Bovenkamer,no,Anastasiia Veklenko,Poltava,Junior,Retainer,AR,152,152,13.68,2081,12.366195436507935,1879.661706349206,201.33829365079396,0.107114111529061,Semyon
+44166.0,Junior retainer (S.Sinelnikova),"Brain Bytes Creative, LLC",no,Svetlana Sinelnikova,Odesa,Junior,Retainer,AR,136,136,14.88,2024,12.63405257936508,1718.231150793651,305.76884920634893,0.17795559640803527,Semyon
+44166.0,Junior Retainer (Y.Nepiyvoda),Fat Cat Strategies,no,Yana Nepiyvoda,Poltava,Junior,Retainer,AR,168,168,14.88,2500,10.711433531746032,1799.5208333333333,700.4791666666667,0.38925871470414586,Semyon
+44166.0,Junior retainer (E.Biniuk),"Inverse Paradox, LLC",no,Eduard Biniuk,Poltava,Junior,Retainer,AR,168,168,14.88,2500,10.461433531746032,1757.5208333333333,742.4791666666667,0.4224582449236022,Semyon
+44166.0,Middle retainer (K.Fedoseeva),"Inverse Paradox, LLC",no,Kateryna Fedoseyeva,Odesa,Middle,Retainer,AR,168,168,20.833333333333332,3500,14.419766865079366,2422.5208333333335,1077.4791666666665,0.4447760167181224,Semyon
+44166.0,Middle retainer (V.Bezbozshniy),"Inverse Paradox, LLC",no,Volodymyr Bezbozhnyi,Poltava,Middle,Retainer,AR,160,160,20.83125,3333,16.413814484126984,2626.2103174603176,706.7896825396824,0.2691291241377747,Semyon
+44172.0,Junior retainer (G.Sklavo),"Inverse Paradox, LLC",no,George Sklavo,Odesa,Junior,Retainer,AR,152,152,14.88,2261,11.622147817460316,1766.5664682539682,494.4335317460318,0.279883910756394,Semyon
+44172.0,Junior retainer (Y.Raievskyi),"Inverse Paradox, LLC",no,Egor Rajewski,Ivano,Junior,Retainer,AR,152,152,14.88,2261,11.89595734126984,1808.1855158730157,452.8144841269843,0.2504247933367388,Semyon
+44175.0,Great.com Middle Retainer,Aveny Ltd,no,Yuliia Lunova,Odesa,Junior,Retainer,IV,120,120,20.833333,2499.99996,13.705481150793652,1644.6577380952383,855.3422219047618,0.5200730839568949,N/A
+44166.0,Middle Retainer (Olena Anhelchuk),Defakto,no,Olena Anhelchuk,Poltava,Middle,Retainer,IV,200,200,18,3600,15.93762400793651,3187.524801587302,412.47519841269786,0.12940297694540173,Semyon
+44166.0,Junior Retainer (Alexander Horbanov),Defakto,no,Alexander Gorbanev,Odesa,Middle,Retainer,IV,160,160,12,1920,13.82452876984127,2211.9246031746034,-291.92460317460336,-0.13197764641508425,Semyon
+44182.0,DIVA (final 50%),Armour Interactive Limited,no,Eduard Shepel,Poltava,Middle,FP,AP,46,46,30,1380,12.366195436507935,568.8449900793651,811.1550099206349,1.4259684519810272,Nikita
+44189.0,Planny Roadtrips Planner (final payment),Jacov Mazor,no,Maxim Kardanets,Odesa,Senior,FP,IV,255,,28.5,7268,19.77690972222222,0,7268,,Semyon
+44196.0,Raketech Retainer (S.Mazur),Raketech Group Ltd,no,Serhii Mazur,Odesa,Junior,Retainer,Lisa,144,144,12.70138888888889,1829,8.348338293650793,1202.1607142857142,626.8392857142858,0.5214271921094459,Arvid
+44196.0,Raketech Retainer (A.Tkach),Raketech Group Ltd,no,Andrii Tkach,Odesa,Junior,Retainer,Lisa,184,184,13.043478260869565,2400,12.81262400793651,2357.5228174603176,42.47718253968242,0.01801771852432873,Arvid
+44196.0,Raketech Retainer (V.Khomovyi),Raketech Group Ltd,no,Volodymyr Khomovyi,Ivano,Junior,Retainer,Lisa,184,184,13.043478260869565,2400,12.312624007936506,2265.522817460317,134.47718253968287,0.059358123212563216,Arvid
+44196.0,Raketech Retainer (O.Zharovskyi),Raketech Group Ltd,no,Oleh Zharovskyi,Ivano,Junior,Retainer,Lisa,176,176,12.988636363636363,2286,12.312624007936506,2167.021825396825,118.97817460317492,0.05490400383087403,Arvid
+44196.0,Raketech Retainer (A.Shliakhova),Raketech Group Ltd,no,Anna Shliakhova,Odesa,Junior,Retainer,Lisa,184,184,13.043478260869565,2400,11.622147817460316,2138.4751984126983,261.5248015873017,0.12229498933699148,Arvid
+44196.0,Raketech Retainer (V.Nikolenko),Raketech Group Ltd,no,Volodymyr Nikolenko,Odesa,Junior,Retainer,Lisa,184,184,13.043478260869565,2400,11.622147817460316,2138.4751984126983,261.5248015873017,0.12229498933699148,Arvid
+44196.0,Raketech Retainer (O.Leshchenko),Raketech Group Ltd,no,Oleksandr Leshchenko,Odesa,Junior,Retainer,Lisa,88,88,11.693181818181818,1029,10.997147817460316,967.7490079365078,61.25099206349216,0.06329222924660516,Arvid
+44196.0,Raketech Retainer (Y.Pavlov),Raketech Group Ltd,no,Yurii Pavlov,Kyiv,Senior,Retainer,Lisa,152,152,22.36842105263158,3400,22.044766865079367,3350.8045634920636,49.19543650793639,0.014681678855261865,Arvid
+44196.0,Raketech Retainer (A.Zobenko),Raketech Group Ltd,no,Alexandr Zobenko,Kyiv,Senior,Retainer,Lisa,152,152,23.43421052631579,3562,20.169766865079367,3065.8045634920636,496.1954365079364,0.16184835863860533,Arvid
+44196.0,Heroes Linked Full-time retainer,Military & Veterans Appreciation Trust Foundation,no,Elena Vronskaya,Odesa,Senior,Retainer,Lisa,184,184,14.673913043478262,2700,16.800719246031747,3091.3323412698414,-391.33234126984144,-0.1265901876823415,N/A
+44196.0,Heroes Linked support,Military & Veterans Appreciation Trust Foundation,no,Ivan Karabadzhak,Odesa,Senior,T&M,Lisa,16,16,33,528,,,,,N/A
+44195.0,Kinyo (final payment),"Colour Outside, LLC",no,Vlad Kushnir,Odesa,Middle,FP,IV,56,56,30,1680,14.717385912698413,824.1736111111111,855.8263888888889,1.038405473496179,N/A
+44195.0,Grit Hounds Junk Removal,"Colour Outside, LLC",no,Oleksandra Kolotukhina,Poltava,Junior,FP,IV,75,64,30,2250,12.06857638888889,772.3888888888889,1477.611111111111,1.9130403510033804,N/A
+44195.0,Grit Hounds Junk Removal (additional task),"Colour Outside, LLC",no,Alona Mnushka,Poltava,Junior,FP,IV,18,36,30,540,9.321977749433106,335.5911989795918,204.4088010204082,0.6091006010942464,N/A
+44195.0,Artely - Market (December),Artely AB,no,Elena Vronskaya,Odesa,Middle,T&M,IV,5,5,30,150,16.800719246031747,84.00359623015873,65.99640376984127,0.7856378385161018,N/A
+44195.0,Mittleman Eye Center,"Ceatus Media Group, LLC",no,Dmytro Furman,Ivano,Junior,FP,IV,52,63,30,1560,11.825095663265305,744.9810267857142,815.0189732142858,1.094013060615458,N/A
+44195.0,Middle Retainer ,Darkroom Studios LLC,no,Oleh Kozyk,Poltava,Junior,Retainer,IV,128,,20.83,2666.24,12.961433531746033,0,2666.24,,N/A
+44195.0,Desert Underground (final payment),Darkroom Studios LLC,no,Maksym Mudriak,Poltava,Junior,FP,IV,84,,30,2520,12.842385912698413,0,2520,,Semyon
+44195.0,Desert Underground (additional tasks),Darkroom Studios LLC,no,Maksym Mudriak,Poltava,Junior,FP,IV,15,,30,450,12.842385912698413,0,450,,Semyon
+44195.0,Nera,Darkroom Studios LLC,no,Egor Rajewski,Ivano,Junior,FP,IV,64,,30,1920,11.89595734126984,0,1920,,Semyon
+44195.0,Lawline Agreement Form (August),Aducera Holding AB,no,Galina Zaporozhchenko,Odesa,Middle,T&M,IV,119,119,30,3570,14.31857638888889,1703.9105902777778,1866.0894097222222,1.0951803576841466,N/A
+44196.0,K A Oldham,"Harbinger Marketing, LLC",no,Oleksandr Martynenko,Odesa,Middle,T&M,AR,152,152,26,3952,12.931671626984128,1965.6140873015875,1986.3859126984125,1.010567601001141,Nikita
+44196.0,Ultimate Mats,"Harbinger Marketing, LLC",no,Roman Kulyk,Ivano,Middle,T&M,AR,178,178,26,4628,19.33643353174603,3441.8851686507937,1186.1148313492063,0.34461197083287903,Nikita
+44196.0,Albaform,"Harbinger Marketing, LLC",no,Oleksandra Kolotukhina,Poltava,Junior,T&M,AR,82,82,26,2132,12.06857638888889,989.6232638888889,1142.376736111111,1.1543551751420555,Nikita
+44196.0,AAT - additional,"Harbinger Marketing, LLC",no,Oleksandr Martynenko,Odesa,Middle,T&M,AR,3,3,26,78,12.931671626984128,38.79501488095239,39.20498511904761,1.0105676010011408,Nikita
+44196.0,Tucker Castleberry ,"Harbinger Marketing, LLC",no,Denys Papirnyk,Poltava,Middle,T&M,AR,154,154,26,4004,16.235243055555557,2500.2274305555557,1503.7725694444443,0.6014543121424369,Nikita
+44166.0,Middle Retainer (D. Kubrakov),Briteweb Inc.,no,Denys Kubrakov,Poltava,Middle,Retainer,AR,136,136,20.83,2833,18.199528769841272,2475.135912698413,357.864087301587,0.1445836107284471,Semyon
+44196.0,Brave Asset Team Page and Plugins Update,BRAVE ASSET MANAGEMENT LLC,no,yevsikov,Odesa,Senior,FP,AR,2,2,30,60,,,,,
+44196.0,WP Mainetnance,"Oomph, Inc",no,Dmytro Furman,Ivano,Junior,T&M,AP,22,22,30,660,11.825095663265305,260.1521045918367,399.8478954081633,1.5369773618994975,Nikita
+44196.0,ReadySpaces,ReadySpaces,no,Eduard Shepel,Poltava,Middle,FP,AP,23,28,30,690,12.366195436507935,346.2534722222222,343.7465277777778,0.9927597998415583,Ross
+44196.0,Link Structure update,CA Customer Alliance GmbH,no,Oleh Draganchuk,Ivano,Middle,T&M,AP,6,6,35,210,18,108,102,0.9444444444444444,Nikita
+44196.0,Skyresponse (additional tasks),Skyresponse AB,no,Eduard Shepel,Poltava,Middle,T&M,AP,24,24,30,720,12.366195436507935,296.7886904761904,423.2113095238096,1.4259684519810274,N/A
+44196.0,Skyresponse (design),Skyresponse AB,no,Anastasia Onyskiv,Odesa,Designer,T&M,AP,21,21,30,630,10,210,420,2,N/A
+44196.0,Trust-PV (additional tasks),Onehemisphere AB,no,Maksym Savchenko,Poltava,Junior,T&M,AP,7,7,30,210,10.461433531746032,73.23003472222223,136.76996527777777,1.8676758217659817,Arvid
+44196.0,PlayAttack (additional tasks),Regula Trading Limited,no,Svetlana Sinelnikova,Odesa,Junior,T&M,AP,3,3,30,90,12.63405257936508,37.90215773809524,52.09784226190476,1.3745349967118499,Semyon
+44196.0,Discovery + 6 month prepayment,Booking.com,yes,,,,FP,AP,100,100,60,6000,,,,,Ross
+44196.0,ComplyLog (50% prepayment),Marsmedia BV,no,Eduard Shepel,Poltava,Middle,FP,AP,58.5,58.5,30,1755,12.366195436507935,723.4224330357142,1031.5775669642858,1.4259684519810272,N/A
+44196.0,"MICT Film Festival (2 step, prepayment)","PUBLIC ORGANIZATION (NGO)  ""INTERNATIONAL ASSOCIATION FOR THE DEVELOPMENT AND SUPPORT OF UKRAINIAN CULTURE""",no,,,,FP,AP,133,133,30,4000,,,,,N/A
+44196.0,Prokit,Prokit LLC,no,Ekaterina Demianchuk,Odesa,Senior,T&M,Lisa,41,41,30,1230,8.585838293650793,352.01937003968254,877.9806299603174,2.4941259052345446,Arvid
+44196.0,Beetroot FT Developer (I.Beskorovayna),Beetroot,no,Irina Beskorovaina,Poltava,Junior,Retainer,Lisa,168,168,14.880952380952381,2500,10.967385912698413,1842.5208333333335,657.4791666666665,0.35683676123065083,N/A
+44196.0,Beetroot FT Developer (D.Haiduk),Beetroot,no,Dariia Haiduk,Odesa,Junior,Retainer,Lisa,168,168,14.880952380952381,2500,12.27690972222222,2062.520833333333,437.47916666666697,0.21210896859627698,N/A
+44196.0,Beetroot QA,Beetroot,no,Olga Azarova,Odesa,,T&M,Lisa,11,11,15,165,13,143,22,0.15384615384615385,N/A
+44136.0,Senior retainer (D.Chekulaev),Emazing-Retailing-Europe,no,Dmitriy Chekulaiev,Poltava,Senior,Retainer,AR,168,168,23.8,4000,20.167046605876394,3388.063829787234,611.9361702127658,0.18061530152789199,Semyon
+44138.0,Middle Retainer (V.Filonenko),8 Digital AB,no,Vladislav Filonenko,Poltava,Middle,Retainer,AR,152,152,20.83,3166,16.89323708206687,2567.7720364741645,598.2279635258355,0.2329754958883612,N/A
+44145.0,Junior Retainer (Y.Nepiyvoda),Fat Cat Strategies,no,Yana Nepiyvoda,Poltava,Junior,Retainer,AR,32,32,14.88,476,10.77418946301925,344.774062816616,131.22593718338402,0.3806142959575895,Semyon
+44136.0,Junior retainer (S.Sinelnikova),"Brain Bytes Creative, LLC",no,Svetlana Sinelnikova,Odesa,Junior,Retainer,AR,168,168,14.88,2500,12.696808510638299,2133.063829787234,366.9361702127658,0.172023061423983,Semyon
+44136.0,Junior retainer (A.Veklenko),Studio Bovenkamer,no,Anastasiia Veklenko,Poltava,Junior,Retainer,AR,168,168,13.1,2200,12.428951367781156,2088.063829787234,111.93617021276577,0.05360763814589502,Semyon
+44136.0,Junior retainer (E.Biniuk),"Inverse Paradox, LLC",no,Eduard Biniuk,Poltava,Junior,Retainer,AR,168,168,14.29,2400,10.52418946301925,1768.063829787234,631.936170212766,0.35741705676361935,Semyon
+44136.0,Junior retainer (D.Kolisnyk),"Inverse Paradox, LLC",no,Dmytro Kolisnyk,Odesa,Junior,Retainer,AR,168,168,14.88,2500,11.803951367781155,1983.063829787234,516.936170212766,0.260675507488949,Semyon
+44136.0,Junior retainer (G.Sklavo),"Inverse Paradox, LLC",no,George Sklavo,Odesa,Junior,Retainer,AR,168,168,14.88,2500,11.684903748733536,1963.063829787234,536.936170212766,0.2735194658805168,Semyon
+44136.0,Middle retainer (K.Fedoseeva),"Inverse Paradox, LLC",no,Kateryna Fedoseyeva,Odesa,Middle,Retainer,AR,168,168,20.24,3400,14.482522796352585,2433.063829787234,966.9361702127658,0.39741504451090465,Semyon
+44136.0,Middle retainer (V.Bezbozshniy),"Inverse Paradox, LLC",no,Volodymyr Bezbozhnyi,Poltava,Middle,Retainer,AR,168,168,20.24,3400,16.476570415400204,2768.063829787234,631.9361702127658,0.22829537506053074,Semyon
+44134.0,OURWAY Tours - additional,OURWAY Tours AB,no,Oleh Draganchuk,Ivano,Senior,T&M,AR,16,16,30,480,18,288,192,0.6666666666666666,N/A
+44136.0,Middle Retainer (Olena Anhelchuk),Defakto,no,Olena Anhelchuk,Poltava,Middle,Retainer,IV,152,152,18,2736,16.00037993920973,2432.0577507598787,303.9422492401213,0.12497328615866823,Semyon
+44136.0,Junior Retainer (Alexander Horbanov),Defakto,no,Alexander Gorbanev,Odesa,Middle,Retainer,IV,144,144,12,1728,13.88728470111449,1999.7689969604867,-271.7689969604867,-0.13590019515931948,Semyon
+44136.0,Middle Retainer ,Memira Holding AB,no,Sergei Semeniuk,Odesa,Middle,Retainer,IV,160,160,20.83125,3333,18.64918946301925,2983.8703140830803,349.1296859169197,0.1170056501011856,Arvid
+44136.0,ECPA (50% prepayment),ZN Consulting,no,Ivan Postoyan,Odesa,Middle,FP,IV,114,114,30,3420,20,2280,1140,0.5,
+44151.0,DIVA (50% prepayment),Armour Interactive Limited,yes,Eduard Shepel,Poltava,Middle,FP,AP,46,46,30,1380,12.428951367781156,571.7317629179332,808.2682370820668,1.4137193164796866,Nikita
+44151.0,Experss Delivery (site migration),Express Delivery Sweden AB,yes,Dmytro Olhovskyi,Poltava,Senior,T&M,AP,8,8,30,240,21,168,72,0.42857142857142855,N/A
+44151.0,Anthos Fund,Marsmedia BV,no,Oleksandra Kolotukhina,Poltava,Junior,FP,AP,31,31,30,930,12.131332320162107,376.0713019250253,553.9286980749747,1.4729353057240395,N/A
+44165.0,Sendify.de (2nd iteration),Sendify AB,no,Oleksandr Piven,Poltava,Middle,FP,AP,65,78,30,1950,14.988475177304966,1169.1010638297873,780.8989361702127,0.6679481871414206,Arvid
+44165.0,Sendify.se migration,Sendify AB,no,Oleksandr Piven,Poltava,Middle,T&M,AP,4,4,30,120,14.988475177304966,59.953900709219866,60.046099290780134,1.0015378245697046,Arvid
+44165.0,Trust-PV,Onehemisphere AB,yes,Eduard Shepel,Poltava,Middle,FP,AP,54,90,30,1620,12.428951367781156,1118.605623100304,501.394376899696,0.44823158988781214,Arvid
+44165.0,On the Road (additional),Dumont bvba,no,Oleksandra Kolotukhina,Poltava,Junior,T&M,AP,7,7,25,175,12.131332320162107,84.91932624113475,90.08067375886525,1.0607794214366992,Viktoria
+44165.0,Kinyo (50% prepayment),"Colour Outside, LLC",no,Vlad Kushnir,Odesa,Middle,FP,IV,56,56,30,1680,14.780141843971633,827.6879432624114,852.3120567375886,1.029750479846449,N/A
+44165.0,Apostalegal.io (50% prepayment),ALTS Digital Unipessoal LDA,no,Andrii Vovk,Odesa,Middle,FP,IV,100,100,30,3000,12.994427558257346,1299.4427558257346,1700.5572441742654,1.3086819227320572,Semyon
+44165.0,Laguna Art Museum,Studio Misfits Inc.,no,Denys Papirnyk,Poltava,Middle,T&M,AP,3,3,30,90,16.297998986828777,48.893996960486334,41.106003039513666,0.8407167667788229,N/A
+44165.0,Restore,Bronte Limited,no,Vlad Kushnir,Odesa,Middle,T&M,IV,30,30,30,900,14.780141843971633,443.404255319149,456.595744680851,1.0297504798464487,N/A
+44165.0,Skyresponse additional tasks,Skyresponse AB,no,Eduard Shepel,Poltava,Middle,T&M,AP,15,15,30,450,12.428951367781156,186.43427051671733,263.56572948328267,1.4137193164796868,N/A
+44165.0,Skyresponse icons,Skyresponse AB,no,Anastasia Onyskiv,Odesa,Designer,T&M,AP,16,16,30,480,10,160,320,2,N/A
+44165.0,Hausecall ,"Ceatus Media Group, LLC",no,Vlad Kushnir,Odesa,Middle,FP,IV,68,77,30,2040,14.780141843971633,1138.0709219858156,901.9290780141844,0.792506917266994,N/A
+44165.0,Great.com (design),Aveny Ltd,no,Anastasia Onyskiv,Odesa,Middle,T&M,IV,32.5,32.5,30,975,10,325,650,2,N/A
+44165.0,Turin Pest Control ,"Harbinger Marketing, LLC",no,Oleksandr Martynenko,Odesa,Junior,T&M,AR,21,21,30,630,12.994427558257346,272.8829787234043,357.1170212765957,1.308681922732057,Nikita
+44165.0,AAT,"Harbinger Marketing, LLC",no,Oleksandr Martynenko,Odesa,Junior,T&M,AR,154,154,30,4620,12.994427558257346,2001.1418439716313,2618.8581560283687,1.3086819227320572,Nikita
+44165.0,K A Oldham,"Harbinger Marketing, LLC",no,Oleksandr Martynenko,Odesa,Junior,T&M,AR,44,44,30,1320,12.994427558257346,571.7548125633232,748.2451874366768,1.3086819227320572,Nikita
+44165.0,Tucker Castleberry,"Harbinger Marketing, LLC",no,Denys Papirnyk,Poltava,Middle,T&M,AR,93,93,30,2790,16.297998986828777,1515.7139057750762,1274.2860942249238,0.8407167667788231,Nikita
+44165.0,Ultimate Mats,"Harbinger Marketing, LLC",no,Roman Kulyk,Ivano,Middle,T&M,AR,147,147,30,4410,19.39918946301925,2851.68085106383,1558.3191489361702,0.546456363921241,Nikita
+44165.0,Middle Retainer (D.Kubrakov),Briteweb Inc.,no,Denys Kubrakov,Poltava,Middle,Retainer,AR,168,168,20.83,3500,18.26228470111449,3068.063829787234,431.9361702127658,0.14078461015679714,Semyon
+44165.0,Detra.se - WP and plugins update,BIGR Reklambyrå AB,no,Svetlana Sinelnikova,Odesa,Junior,T&M,AR,4,4,30,120,12.696808510638299,50.787234042553195,69.2127659574468,1.3627984918307499,N/A
+44165.0,Träningsprodukter Website - Redesign,AB Västsvenska Träningsprodukter,yes,Anastasia Onyskiv,Odesa,Designer,T&M,AR,28,28,30,840,10,280,560,2,Bjorn
+44165.0,Artely - Market (November),Artely AB,no,Elena Vronskaya,Odesa,Senior,T&M,IV,20,20,30,600,16.863475177304966,337.2695035460993,262.7304964539007,0.7789927452423508,N/A
+44165.0,Artely - Market (November),Artely AB,no,Anastasia Onyskiv,Odesa,Middle,T&M,IV,1,1,30,30,10,10,20,2,N/A
+44165.0,Raketech Retainer (S.Mazur),Raketech Group Ltd,no,Serhii Mazur,Odesa,Junior,Retainer,Lisa,156,156,13.916666666666666,2171,8.411094224924012,1312.130699088146,858.869300911854,0.6545607853765771,Arvid
+44165.0,Raketech Retainer (A.Tkach),Raketech Group Ltd,no,Andrii Tkach,Odesa,Junior,Retainer,Lisa,148,148,13.89864864864865,2057,12.875379939209727,1905.5562310030396,151.44376899696044,0.0794748360258275,Arvid
+44165.0,Raketech Retainer (V.Khomovyi),Raketech Group Ltd,no,Volodymyr Khomovyi,Ivano,Junior,Retainer,Lisa,120,120,14.283333333333333,1714,12.375379939209726,1485.045592705167,228.9544072948329,0.15417331859674982,Arvid
+44165.0,Raketech Retainer (O.Zharovskyi),Raketech Group Ltd,no,Oleh Zharovskyi,Ivano,Junior,Retainer,Lisa,160,160,14.2875,2286,12.375379939209726,1980.060790273556,305.939209726444,0.15451000859634056,Arvid
+44165.0,Raketech Retainer (A.Shliakhova),Raketech Group Ltd,no,Anna Shliakhova,Odesa,Junior,Retainer,Lisa,168,168,14.285714285714286,2400,11.684903748733536,1963.063829787234,436.936170212766,0.22257868724529614,Arvid
+44165.0,Raketech Retainer (V.Nikolenko),Raketech Group Ltd,no,Volodymyr Nikolenko,Odesa,Junior,Retainer,Lisa,168,168,14.285714285714286,2400,11.684903748733536,1963.063829787234,436.936170212766,0.22257868724529614,Arvid
+44165.0,Raketech Retainer (O.Leshchenko),Raketech Group Ltd,no,Oleksandr Leshchenko,Odesa,Junior,Retainer,Lisa,156,156,13.916666666666666,2171,11.059903748733536,,2171,,Arvid
+44165.0,Raketech Retainer (Y.Pavlov),Raketech Group Ltd,no,Yurii Pavlov,Kyiv,Senior,Retainer,Lisa,120,120,26.191666666666666,3143,22.107522796352583,2652.90273556231,490.0972644376898,0.18474000492664447,Arvid
+44165.0,Raketech Retainer (A.Zobenko),Raketech Group Ltd,no,Alexandr Zobenko,Kyiv,Senior,Retainer,Lisa,160,160,25,4000,20.232522796352583,3237.2036474164133,762.7963525835867,0.2356343423721175,Arvid
+44165.0,PlayAttack additional,Regula Trading Limited,no,Svetlana Sinelnikova,Odesa,Junior,T&M,AP,12,12,30,360,12.696808510638299,152.36170212765958,207.63829787234042,1.3627984918307499,Semyon
+44165.0,CA maintenance,CA Customer Alliance GmbH,no,Oleh Draganchuk,Ivano,,,AP,35,35,35,1225,18,630,595,0.9444444444444444,Nikita
+44165.0,ReadySpaces,ReadySpaces,no,Eduard Shepel,Poltava,Middle,FP,AP,12,13,30,360,12.428951367781156,161.57636778115503,198.42363221884497,1.228048599827403,Ross
+44165.0,ReadySpaces (design),ReadySpaces,no,Pavlo Hladkov,Kremen,Designer,T&M,AP,1,1,30,30,,0,30,,Ross
+44165.0,Prokit,Prokit LLC,no,Ekaterina Demianchuk,Odesa,Senior,T&M,Lisa,64,64,30,1920,8.648594224924013,553.5100303951368,1366.4899696048633,2.4687718280901985,Arvid
+44165.0,Heroes Linked,Military & Veterans Appreciation Trust Foundation,no,Elena Vronskaya,Odesa,Senior,Retainer,Lisa,168,168,16.071428571428573,2700,16.863475177304966,2833.063829787234,-133.06382978723423,-0.04696817219159776,N/A
+44165.0,Front-end development,Skyresponse AB,no,Oleksandra Kalinichenko,Odesa,Middle,T&M,Lisa,66,66,30,1980,11.26823708206687,743.7036474164134,1236.2963525835867,1.6623507991098523,N/A
+44165.0,Middle Retainer ,Darkroom Studios LLC,no,Oleh Kozyk,Poltava,Junior,Retainer,IV,128,128,20.83,2666.24,13.024189463019251,1667.0962512664642,999.1437487335356,0.5993317710207214,Semyon
+44165.0,Vybes (2nd developer),Darkroom Studios LLC,no,Oleksandr Piven,Poltava,Middle,Retainer,IV,28,28,20.83,583.24,14.988475177304966,419.6773049645391,163.56269503546093,0.38973442952623155,Semyon
+44165.0,Vybes (QA),Darkroom Studios LLC,no,Olga Azarova,Odesa,,T&M,IV,8,8,30,240,13,104,136,1.3076923076923077,Semyon
+44165.0,RLJ Companies (additional changes),"Financial Communications, Inc.",no,Kostiantyn Kushch,Poltava,Middle,T&M,IV,3,2,30,90,12,24,66,2.75,N/A
+44165.0,Lawline Agreement Form (August),Aducera Holding AB,no,Galina Zaporozhchenko,Odesa,Middle,T&M,IV,131,131,30,3930,14.381332320162109,1883.9545339412361,2046.0454660587639,1.0860376029236933,N/A
+44165.0,Citihub Digital (additional tasks) ,Craft & Root,no,Dmytro Furman,Ivano,Junior,FP,IV,22.25,22.25,30,667.5,11.887851594538525,264.50469797848217,402.99530202151783,1.5235846663649886,Semyon
+44165.0,Bridge Property Advisors,Craft & Root,no,Yuri Nifontov,Odesa,Senior,T&M,IV,4,4,30,120,19,76,44,0.5789473684210527,Semyon
+44165.0,Craft & Root website (final payment),Craft & Root,no,Andrii Vovk,Odesa,Middle,FP,IV,56,,30,1680,12.994427558257346,0,1680,,Semyon
+44165.0,Beetroot FT Developer (I.Beskorovayna),Beetroot,no,Irina Beskorovaina,Poltava,Junior,Retainer,Lisa,168,168,14.880952380952381,2500,11.03014184397163,1853.063829787234,646.936170212766,0.34911704595035253,N/A
+44165.0,Beetroot FT Developer (D.Haiduk),Beetroot,no,Dariia Haiduk,Odesa,Junior,Retainer,Lisa,168,168,14.880952380952381,2500,12.33966565349544,2073.0638297872338,426.9361702127662,0.20594453681466443,N/A
+44165.0,Beetroot QA,Beetroot,no,Olga Azarova,Odesa,,T&M,Lisa,9,9,15,135,,,,,
+44105.0,Senior retainer (D.Chekulaev),Emazing-Retailing-Europe,no,Dmitriy Chekulaiev,Poltava,Senior,Retainer,AR,168,168,23.8,4000,20.374031007751938,3422.8372093023254,577.1627906976746,0.16862116291394336,Semyon
+44112.0,МІСТ Film Festival design,"PUBLIC ORGANIZATION (NGO)  ""INTERNATIONAL ASSOCIATION FOR THE DEVELOPMENT AND SUPPORT OF UKRAINIAN CULTURE""",yes,Anastasia Onyskiv,Odesa,Designer,T&M,AP,13.5,13.5,30,405,10,135,270,2,N/A
+44112.0,МІСТ Film Festival development (50% prepayment),"PUBLIC ORGANIZATION (NGO)  ""INTERNATIONAL ASSOCIATION FOR THE DEVELOPMENT AND SUPPORT OF UKRAINIAN CULTURE""",no,Ihor Fedan,Kremen,Middle,FP,AP,123,94,30,3690,,0,3690,,N/A
+44105.0,Junior retainer (A.Veklenko),Studio Bovenkamer,no,Anastasiia Veklenko,Poltava,Junior,Retainer,AR,88,88,"$12,5",1100,12.6359357696567,1111.9623477297896,-11.962347729789599,-0.010757871212287206,Semyon
+44105.0,Junior retainer (S.Sinelnikova),"Brain Bytes Creative, LLC",no,Svetlana Sinelnikova,Odesa,Junior,Retainer,AR,152,152,14.88,2262,12.903792912513842,1961.376522702104,300.623477297896,0.15327168130050825,Semyon
+44114.0,Junior Retainer (Y.Nepiyvoda),Fat Cat Strategies,no,Yana Nepiyvoda,Poltava,Junior,Retainer,AR,168,168,14.88,2500,10.981173864894796,1844.8372093023256,655.1627906976744,0.3551331181928197,Semyon
+44107.0,Middle Retainer (R.Kulyk),8 Digital AB,no,Roman Kulyk,Ivano,Middle,Retainer,AR,168,168,20.83,3500,19.606173864894792,3293.837209302325,206.16279069767506,0.06259046139725372,Arvid
+44107.0,Middle Retainer (V.Filonenko),8 Digital AB,no,Vladislav Filonenko,Poltava,Middle,Retainer,AR,144,144,20.83,3000,17.100221483942413,2462.4318936877075,537.5681063122925,0.21830780688404627,Arvid
+44105.0,Middle Retainer (K.Fedoseeva),"Inverse Paradox, LLC",no,Kateryna Fedoseyeva,Odesa,Middle,Retainer,AR,152,152,19.05,2895,14.689507198228128,2232.8050941306756,662.1949058693244,0.2965753292170558,Semyon
+44105.0,Middle Retainer (V. Bezbozshniy),"Inverse Paradox, LLC",no,Volodymyr Bezbozhnyi,Poltava,Middle,Retainer,AR,168,168,19.05,3200,15.909745293466223,2672.8372093023254,527.1627906976746,0.19722966623742744,Semyon
+44105.0,Junior Retainer (E.Biniuk),"Inverse Paradox, LLC",no,Eduard Biniuk,Poltava,Junior,Retainer,AR,168,168,13.1,2200,10.731173864894796,1802.8372093023256,397.1627906976744,0.2202987539021181,Semyon
+44116.0,Junior Retainer (D.Kolysnik),"Inverse Paradox, LLC",no,Dmytro Kolisnyk,Odesa,Junior,Retainer,AR,120,120,14.88,1786,12.010935769656701,1441.3122923588041,344.68770764119586,0.23914852420851232,Semyon
+44105.0,Senior Retainer (A.Klimenko),Lahav Media W&W Marketing,no,Anastasia Klimenko,Odesa,Senior,Retainer,AR,168,168,17.86,3000,15.879983388704318,2667.8372093023254,332.1627906976746,0.12450639399565896,Semyon
+44124.0,Transition Fee,Lahav Media W&W Marketing,no,Anastasia Klimenko,Odesa,Senior,Retainer,AR,,,,10000,15.879983388704318,0,10000,,Semyon
+44105.0,Middle Retainer (Olena Anhelchuk),Defakto,no,Olena Anhelchuk,Poltava,Middle,Retainer,IV,168,168,18,3024,16.20736434108527,2722.8372093023254,301.1627906976746,0.1106062417792659,Semyon
+44105.0,Junior Retainer (Alexander Horbanov),Defakto,no,Alexander Gorbanev,Odesa,Middle,Retainer,IV,160,160,12,1920,14.094269102990031,2255.083056478405,-335.08305647840507,-0.14859011756386448,Semyon
+44105.0,Middle Retainer ,Memira Holding AB,no,Sergei Semeniuk,Odesa,Middle,Retainer,IV,80,80,20.8375,1667,18.856173864894792,1508.4939091915835,158.5060908084165,0.1050757247626949,Arvid
+44111.0,Middle Retainer ,Darkroom Studios LLC,no,Oleh Kozyk,Poltava,Junior,Retainer,IV,168,168,20.833333333333332,3500,13.231173864894794,2222.8372093023254,1277.1627906976746,0.5745642484986714,Semyon
+44123.0,Contos Smile Center,"Ceatus Media Group, LLC",no,Dmytro Kolisnyk,Odesa,Junior,FP,IV,44,64,30,1320,12.010935769656701,768.6998892580289,551.3001107419711,0.7171851049362084,N/A
+44113.0,Boston Eye Physicians & Surgeons,"Ceatus Media Group, LLC",no,Vlad Kushnir,Odesa,Middle,FP,IV,46,52,30,1380,14.987126245847175,779.3305647840531,600.6694352159469,0.7707505163516692,N/A
+44130.0,Mumzworld - Questions/Answers module - additional August,Mumzworld FZ LLC,no,Denys Papirnyk,Poltava,Middle,FP,AR,27,,30,810,16.504983388704318,0,810,,Ross
+44130.0,Mumzworld - Questions/Answers module - additional Sept-Oct,Mumzworld FZ LLC,no,Denys Papirnyk,Poltava,Middle,FP,AR,31,,30,930,16.504983388704318,0,930,,Ross
+44134.0,URL Structure Update ,Cleaning Services & Estate i Sverige AB,no,Dmytro Olhovskyi,Poltava,,T&M,AR,3,3,30,90,21,63,27,0.42857142857142855,N/A
+44134.0,Payment Integration,MindTrace B.V.,no,Ihor Fedan,Kremen,Middle,T&M,AP,10,10,30,300,,0,300,,Nikita
+44105.0,Middle retainer (D.Kubrakov),Briteweb Inc.,no,Denys Kubrakov,Poltava,Middle,Retainer,AR,128,128,20.83,2666,18.469269102990033,2364.0664451827242,301.93355481727576,0.12771788010972704,Semyon
+44132.0,Junior Retainer (G.Sklavo),"Inverse Paradox, LLC",no,George Sklavo,Odesa,Junior,Retainer,AR,24,24,14.88,357,11.594269102990033,278.2624584717608,78.7375415282392,0.2829614241197751,Semyon
+44134.0,ReadySpaces,ReadySpaces,no,Oleksandr Piven,Poltava,Middle,T&M,AP,15,15,30,450,15.195459579180508,227.9318936877076,222.0681063122924,0.9742739496410746,Ross
+44134.0,WP Maintenance,"Oomph, Inc.",no,Alona Mnushka,Poltava,Junior,T&M,AP,20,20,30,600,12.040697674418604,240.81395348837208,359.1860465116279,1.491549975857074,Nikita
+44134.0,Great.com Middle Retainer,Aveny Ltd,no,Yuliia Lunova,Odesa,Junior,Retainer,IV,160,160,20.83,3333,13.975221483942413,2236.0354374307863,1096.9645625692137,0.4905846053270204,N/A
+44134.0,Great.com (design),Aveny Ltd,no,Anastasia Onyskiv,Odesa,Middle,T&M,IV,26,26,30,780,10,260,520,2,N/A
+44134.0,MM Homepage Refresh ,Mach Media ,no,Alona Mnushka,Poltava,Junior,FP,AR,29,,30,870,12.040697674418604,0,870,,N/A
+44134.0,MM Homepage Refresh - additional,Mach Media ,no,Alona Mnushka,Poltava,Junior,FP,AR,7,,30,210,12.040697674418604,0,210,,N/A
+44134.0,Skyresponse website development (final 50%),Skyresponse AB,no,Eduard Shepel,Poltava,Middle,FP,AP,71,71,30,2130,12.6359357696567,897.1514396456256,1232.8485603543745,1.3741811090905112,N/A
+44134.0,Skyresponse illustrations & icons,Skyresponse AB,no,Anastasia Onyskiv,Odesa,Designer,T&M,AP,39.5,39.5,30,1185,10,395,790,2,N/A
+44134.0,Artely - Market (October),Artely AB,no,Elena Vronskaya,Odesa,Senior,T&M,IV,48,48,30,1440,17.070459579180508,819.3820598006644,620.6179401993356,0.7574219288500371,N/A
+44134.0,Lawline Agreement Form (August),Aducera Holding AB,no,Galina Zaporozhchenko,Odesa,Middle,T&M,IV,131,131,30,3930,14.588316722037652,1911.0694905869325,2018.9305094130675,1.0564401343631982,Arvid
+44134.0,Bridge Property Advisors,Craft & Root,no,Dariia Haiduk,Odesa,Junior,T&M,IV,30,,30,900,12.546650055370984,0,900,,Semyon
+44134.0,Citihub Digital (3rd payment),Craft & Root,no,Dmytro Furman,Ivano,Junior,FP,IV,101,101,28.5,2869,12.09483599641407,1221.578435637821,1647.421564362179,1.3486007253410732,Semyon
+44134.0,Blue Square (additional tasks),Diffusion Digital,no,Dmytro Olhovskyi,Poltava,Senior,T&M,IV,4,3,30,120,21,63,57,0.9047619047619048,N/A
+44134.0,Slater (addtional tasks),Diffusion Digital,no,Dmytro Olhovskyi,Poltava,Senior,T&M,IV,6,4,30,180,21,84,96,1.1428571428571428,N/A
+44134.0,Song History website ( 100% payment),"Colour Outside, LLC",no,Oleksandra Kolotukhina,Poltava,Junior,FP,IV,50,50,30,1500,12.338316722037652,616.9158361018826,883.0841638981174,1.4314499842929587,N/A
+44134.0,OI Events,"Colour Outside, LLC",no,Eduard Shepel,Poltava,Middle,T&M,IV,6,7,30,180,12.6359357696567,88.4515503875969,91.5484496124031,1.0350123792204378,N/A
+44134.0,CO fixes,"Colour Outside, LLC",no,Andrii Vovk,Odesa,Middle,T&M,IV,1,1,30,30,13.201411960132889,13.201411960132889,16.798588039867113,1.272484192645255,N/A
+44134.0,dCompany landing page (design),dCompany AS,yes,Anastasia Onyskiv,Odesa,Junior,T&M,IV,6,6,30,180,10,60,120,2,Viktoria
+44134.0,Desert Underground (50% prepayment),Darkroom Studios LLC,no,Maksym Mudriak,Poltava,Junior,FP,IV,84,84,30,2520,12.120062753783685,1018.0852713178296,1501.9147286821703,1.4752347087175344,Semyon
+44134.0,Prokit,Prokit LLC,no,Ekaterina Demianchuk,Odesa,Senior,T&M,Lisa,67,67,30,2010,9.813911960132891,657.5321013289038,1352.4678986710962,2.0568849732776453,Arvid
+44134.0,Heroes Linked,Military & Veterans Appreciation Trust Foundation,no,Elena Vronskaya,Odesa,Senior,Retainer,Lisa,168,168,16.071428571428573,2700,17.070459579180508,2867.8372093023254,-167.8372093023254,-0.058523966687480174,N/A
+44134.0,Raketech Retainer (S.Mazur),Raketech Group Ltd,no,Serhii Mazur,Odesa,Junior,Retainer,Lisa,152,152,11.907894736842104,1810,12.308554817275747,1870.9003322259134,-60.90033222591342,-0.032551350372286764,Arvid
+44134.0,Raketech Retainer (A.Tkach),Raketech Group Ltd,no,Andrii Tkach,Odesa,Junior,Retainer,Lisa,168,168,11.904761904761905,2000,11.713316722037652,1967.8372093023254,32.16279069767461,0.016344233428271012,Arvid
+44134.0,Raketech Retainer (V.Khomovyi),Raketech Group Ltd,no,Volodymyr Khomovyi,Ivano,Junior,Retainer,Lisa,144,144,11.902777777777779,1714,12.58236434108527,1811.8604651162789,-97.86046511627887,-0.054011038377615096,Arvid
+44134.0,Raketech Retainer (O.Zharovskyi),Raketech Group Ltd,no,Oleh Zharovskyi,Ivano,Junior,Retainer,Lisa,168,168,11.904761904761905,2000,12.58236434108527,2113.8372093023254,-113.83720930232539,-0.05385334726882658,Arvid
+44134.0,Raketech Retainer (A.Shliakhova),Raketech Group Ltd,no,Anna Shliakhova,Odesa,Junior,Retainer,Lisa,168,168,11.904761904761905,2000,10.999031007751938,1847.8372093023256,152.16279069767438,0.08234642636897943,Arvid
+44134.0,Raketech Retainer (V.Nikolenko),Raketech Group Ltd,no,Volodymyr Nikolenko,Odesa,Junior,Retainer,Lisa,168,168,11.904761904761905,2000,10.999031007751938,1847.8372093023256,152.16279069767438,0.08234642636897943,Arvid
+44134.0,Raketech Retainer (O.Leshchenko),Raketech Group Ltd,no,Maksym Mudriak,Odesa,Junior,Retainer,Lisa,96,96,11.90625,1143,12.120062753783685,1163.5260243632338,-20.526024363233773,-0.01764122497772846,Arvid
+44134.0,Raketech Retainer (M.Mudriak),Raketech Group Ltd,no,Oleksandr Leshchenko,Odesa,Junior,Retainer,Lisa,168,168,11.904761904761905,2000,11.26688815060908,1892.8372093023256,107.16279069767438,0.05661490072734419,Arvid
+44134.0,Raketech Retainer (G.Sklavo),Raketech Group Ltd,no,George Sklavo,Odesa,Junior,Retainer,Lisa,96,96,11.90625,1143,11.594269102990033,1113.0498338870432,29.950166112956822,0.026908198717719125,Arvid
+44134.0,BA HR Test,Beetroot,no,Oleksandr Piven,Poltava,Middle,T&M,AP,2,2,15,30,15.195459579180508,30.390919158361015,-0.3909191583610152,-0.01286302517946277,Arvid
+44134.0,Beetroot FT Developer (I.Beskorovayna),Beetroot,no,Irina Beskorovaina,Poltava,Junior,Retainer,Lisa,152,152,12.907894736842104,1962,11.237126245847175,1708.0431893687708,253.95681063122925,0.14868289760581654,N/A
+44134.0,Beetroot FT Developer (D.Haiduk),Beetroot,no,Dariia Haiduk,Odesa,Junior,Retainer,Lisa,64,64,11.678571428571429,747.4285714285714,12.546650055370984,802.985603543743,-55.55703211517152,-0.06918807992321002,N/A
+44134.0,Beetroot QA,Beetroot,no,Olga Azarova,Odesa,Junior,T&M,Lisa,12,12,15,180,13,156,24,0.15384615384615385,N/A
+44134.0,Beetroot support,Beetroot,no,Dmytro Olhovskyi,Poltava,Senior,T&M,Lisa,15,15,15,225,21,315,-90,-0.2857142857142857,N/A
+43899.0,Skyresponse website development (50% prepayment),Skyresponse AB,no,Eduard Shepel,Poltava,Middle,FP,AP,71,71,30,2130,12.679988662131521,900.279195011338,1229.7208049886622,1.3659327148764948,N/A
+44077.0,Middle Retainer (R.Kulyk),8 Digital AB,no,Roman Kulyk,Ivano,Middle,Retainer,AR,144,144,20.83,3000,18.578798185941043,2675.3469387755104,324.65306122448965,0.12134989167912605,N/A
+44077.0,Middle Retainer (V.Filonenko),8 Digital AB,no,Vladislav Filonenko,Poltava,Middle,Retainer,AR,152,152,20.83,3166,16.25141723356009,2470.2154195011335,695.7845804988665,0.28166959650805756,N/A
+44075.0,Middle Retainer (K.Fedoseeva),"Inverse Paradox, LLC",no,Kateryna Fedoseyeva,Odesa,Middle,Retainer,AR,153,153,17.86,2732,14.733560090702948,2254.234693877551,477.76530612244915,0.21194124437000667,Semyon
+44075.0,Middle Retainer (V. Bezbozshniy),"Inverse Paradox, LLC",no,Volodymyr Bezbozhnyi,Poltava,Middle,Retainer,AR,168,168,17.86,3000,15.953798185941045,2680.2380952380954,319.7619047619046,0.11930354446122406,Semyon
+44075.0,Junior Retainer (E.Biniuk),"Inverse Paradox, LLC",no,Eduard Biniuk,Poltava,Junior,Retainer,AR,168,168,11.9,2000,10.775226757369614,1810.2380952380952,189.76190476190482,0.10482704195712222,Semyon
+44075.0,Junior retainer (S.Sinelnikova),"Brain Bytes Creative, LLC",no,Svetlana Sinelnikova,Odesa,Junior,Retainer,AR,168,168,14.88,2500,12.947845804988663,2175.2380952380954,324.7619047619046,0.14929947460595439,Semyon
+44075.0,Middle Retainer (Olena Anhelchuk),Defakto,no,Olena Anhelchuk,Poltava,Middle,Retainer,IV,168,168,18,3024,16.25141723356009,2730.2380952380954,293.7619047619046,0.10759570942705148,Semyon
+44075.0,Junior Retainer (Alexander Horbanov),Defakto,no,Alexander Gorbanev,Odesa,Middle,Retainer,IV,128,128,12,1536,14.138321995464853,1809.7052154195012,-273.7052154195012,-0.15124298315958304,Semyon
+44075.0,Middle Retainer ,Memira Holding AB,no,Sergei Semeniuk,Odesa,Middle,Retainer,IV,152,152,20.835526315789473,3167,18.900226757369616,2872.8344671201817,294.16553287981833,0.10239557351687548,Arvid
+44075.0,Middle Retainer ,Darkroom Studios LLC,no,Oleh Kozyk,Poltava,Junior,Retainer,IV,168,168,20.833333333333332,3500,12.084750566893424,2030.2380952380952,1469.7619047619048,0.7239357335522458,Semyon
+44084.0,Junior Retainer (Y.Nepiyvoda),Fat Cat Strategies,no,Yana Nepiyvoda,Kremen,Junior,Retainer,AR,168,168,14.88,2500,11.025226757369614,1852.2380952380952,647.7619047619048,0.34971848728693733,Semyon
+44089.0,Corridor App Design,Joel Burke,no,Pavlo Hladkov,Kremen,Designer,T&M,AP,20,20,30,600,10,200,400,2,Semyon
+44089.0,Planny Roadtrips Planner (50% prepayment),Jacov Mazor,no,Maxim Kardanets,Odesa,Senior,FP,IV,153,153,28.49673202614379,4360,20.090702947845806,3073.877551020408,1286.1224489795918,0.41840393042092683,Semyon
+44089.0,Sendify,Sendify AB,yes,Oleksandr Piven,Poltava,Middle,FP,AP,65,69,30,1950,13.275226757369616,915.9906462585035,1034.0093537414964,1.1288426993933371,Arvid
+44089.0,Brave Asset Banner Update,BRAVE ASSET MANAGEMENT LLC,no,Vlad Kushnir,Odesa,Junior,FP,AR,2,2,30,60,13.24546485260771,26.49092970521542,33.50907029478458,1.2649261716242242,Semyon
+44075.0,Senior retainer (D.Chekulaev),Emazing-Retailing-Europe,no,Dmitriy Chekulaiev,Poltava,Senior,Retainer,AR,168,168,20.83,3500,20.41808390022676,3430.2380952380954,69.76190476190459,0.020337336017213804,Semyon
+44075.0,Junior retainer (A.Veklenko),Studio Bovenkamer,no,Anastasiia Veklenko,Poltava,Junior,Retainer,AR,152,152,11.9,1810,12.679988662131521,1927.3582766439913,-117.3582766439913,-0.06089074255998795,Semyon
+44096.0,Swainson Miki Peskett,Overhaul Media Inc,yes,Oleksandra Kolotukhina,Poltava,Junior,FP,AP,83,74,30,2490,12.382369614512474,916.295351473923,1573.704648526077,1.7174644027110546,Nikita
+44099.0,CA Site Audit,CA Customer Alliance GmbH,yes,Oleh Draganchuk,Ivano,Senior,FP,AP,16,,30,500,18,0,500,,Nikita
+44104.0,Midwest Sports,"Ceatus Media Group, LLC",no,Dmytro Kolisnyk,Odesa,Junior,FP,IV,46,66,30,1380,11.162131519274377,736.7006802721089,643.2993197278911,0.8732166766702062,N/A
+44095.0,Great.com Middle Retainer,Aveny Ltd,no,Yuliia Lunova,Odesa,Junior,Retainer,IV,168,168,20.8333333,3500,13.24546485260771,2225.2380952380954,1274.7619047619046,0.5728653969612667,N/A
+44104.0,PlayAttack additional,Regula Trading Limited,no,Maxim Kardanets,Odesa,Senior,FP,AP,17,13,30,510,20.090702947845806,261.1791383219955,248.82086167800452,0.9526827574231637,Semyon
+44104.0,E-Learning Platform,Marsmedia BV,no,Oleksandr Piven,Poltava,Middle,T&M,AP,12,12,30,360,13.275226757369616,159.3027210884354,200.6972789115646,1.2598484039713886,Semyon
+44104.0,ERT website update,ZN Consulting,no,Oleksandr Piven,Poltava,Middle,FP,IV,14,14,30,420,13.275226757369616,185.85317460317464,234.14682539682536,1.2598484039713884,Semyon
+44104.0,ERT website update (additional tasks),ZN Consulting,no,Oleksandr Piven,Poltava,Middle,T&M,IV,5,5,30,150,13.275226757369616,66.37613378684807,83.62386621315193,1.2598484039713889,Semyon
+44104.0,Song History website ( 50% prepayment),"Colour Outside, LLC",no,Oleksandra Kolotukhina,Poltava,Junior,FP,IV,50,50,30,1500,12.382369614512474,619.1184807256237,880.8815192743763,1.4227995879592532,N/A
+44104.0,OI Events,"Colour Outside, LLC",no,Andrii Vovk,Odesa,Junior,T&M,IV,9,9,30,270,11.459750566893424,103.13775510204081,166.8622448979592,1.617858026218155,N/A
+44104.0,Stace Hammond,Bronte Limited,no,Vlad Kushnir,Odesa,Junior,T&M,IV,72,72,30,2160,13.24546485260771,953.6734693877552,1206.3265306122448,1.2649261716242242,N/A
+44104.0,Billdals Ridklubb (final payment),Billdals Ridklubb,no,Maxim Kardanets,Odesa,Senior,FP,IV,38,38,30,1140,20.090702947845806,763.4467120181406,376.5532879818594,0.4932279909706546,Arvid
+44104.0,Citihub Digital (2nd payment),Craft & Root,no,Dmytro Furman,Ivano,Middle,FP,IV,101,101,28.5,2869,12.13888888888889,1226.0277777777778,1642.9722222222222,1.3400774860094704,Semyon
+44104.0,Craft & Root website (50% prepayment),Craft & Root,no,Andrii Vovk,Odesa,Junior,FP,IV,56,56,30,1680,11.459750566893424,641.7460317460318,1038.2539682539682,1.6178580262181546,Semyon
+44104.0,Artely - Market (September),Artely AB,no,Elena Vronskaya,Odesa,Senior,T&M,IV,17,17,30,510,17.11451247165533,290.9467120181406,219.0532879818594,0.7528983106989069,Semyon
+44104.0,Lawline Agreement Form (August),Aducera Holding AB,no,Galina Zaporozhchenko,Odesa,Middle,T&M,IV,149,149,30,4470,14.632369614512474,2180.2230725623585,2289.7769274376415,1.050248920055014,Arvid
+44104.0,On the Road website development (additional),Dumont bvba,no,Oleksandra Kolotukhina,Poltava,Junior,FP,AP,22,21,25,550,12.382369614512474,260.0297619047619,289.9702380952381,1.1151424974247452,Viktoria
+44104.0,Payment Integration,MindTrace B.V.,yes,Maxim Kardanets,Odesa,Senior,T&M,AP,30.5,33.5,30,915,20.090702947845806,673.0385487528345,241.96145124716554,0.35950608133149153,Nikita
+44075.0,Senior Retainer (A.Klimenko),Lahav Media W&W Marketing,no,Anastasia Klimenko,Odesa,Senior,Retainer,AR,144,144,17.86,2571,15.92403628117914,2293.061224489796,277.93877551020387,0.12120861516553923,Semyon
+44075.0,Middle retainer (D.Kubrakov),Briteweb Inc.,no,Denys Kubrakov,Poltava,Middle,Retainer,AR,168,168,20.83,3500,16.846655328798185,2830.238095238095,669.761904761905,0.23664507445108113,Semyon
+44082.0,Built theme,Cleaning Services & Estate i Sverige AB,no,Oleh Kozyk,Poltava,Junior,FP,AR,40,14,30,1200,12.084750566893424,169.18650793650795,1030.813492063492,6.092764160900668,Semyon
+44104.0,Struktia & Bygglovstjanst redesign,Struktia AB,yes,Pavlo Hladkov,Kremen,Designer,T&M,AP,10,10,30,300,10,100,200,2,Arvid
+44104.0,CA Site Migration,CA Customer Alliance GmbH,no,,,,T&M,AP,6,6,35,210,18,108,102,0.9444444444444444,Nikita
+44104.0,CA Site Maintenance,CA Customer Alliance GmbH,no,Oleh Draganchuk,Ivano,,T&M,AP,2,2,35,70,18,36,34,0.9444444444444444,Nikita
+44102.0,Junior retainer (A.Veklenko),Studio Bovenkamer,no,Anastasiia Veklenko,Poltava,Junior,Retainer,AR,24,24,11.9,286,12.679988662131521,304.3197278911565,-18.319727891156504,-0.060198949368503535,Semyon
+44102.0,Senior retainer (D.Chekulaev),Emazing-Retailing-Europe,no,Dmitriy Chekulaiev,Poltava,Senior,Retainer,AR,24,24,20.83,500,20.41808390022676,490.03401360544217,9.96598639455783,0.02033733601721387,Semyon
+44104.0,Turin Pest Control,"Harbinger Marketing, LLC",yes,Oleksandr Martynenko,Odesa,Junior,FP,AR,69,189,30,2070,12.352607709750568,2334.6428571428573,-264.64285714285734,-0.11335474988526854,Nikita
+44102.0,WP Maintenance,"Oomph, Inc.",no,Alona Mnushka,Poltava,Junior,T&M,AP,29,29,30,870,12.084750566893424,350.4577664399093,519.5422335600907,1.482467456315234,Nikita
+44104.0,ReadySpaces,ReadySpaces,yes,Ihor Fedan,Kremen,Middle,T&M,AP,17,17,30,510,,0,510,,Ross
+44104.0,Skyresponse illustrations & icons,Skyresponse AB,no,Anastasia Onyskiv,Odesa,Designer,T&M,AP,9,9,30,270,12,108,162,1.5,N/A
+44104.0,Raketech Retainer (S.Mazur),Raketech Group Ltd,no,Serhii Mazur,Odesa,Junior,Retainer,Lisa,152,152,11.907894736842104,1810,12.352607709750568,1877.5963718820865,-67.59637188208649,-0.03600154585638044,Arvid
+44104.0,Raketech Retainer (A.Tkach),Raketech Group Ltd,no,Andrii Tkach,Odesa,Junior,Retainer,Lisa,168,168,11.904761904761905,2000,11.757369614512472,1975.2380952380952,24.761904761904816,0.012536162005785948,Arvid
+44104.0,Raketech Retainer (V.Khomovyi),Raketech Group Ltd,no,Volodymyr Khomovyi,Ivano,Junior,Retainer,Lisa,152,152,11.907894736842104,1810,12.031179138321995,1828.7392290249434,-18.73922902494337,-0.01024707554118301,Arvid
+44104.0,Raketech Retainer (O.Zharovskyi),Raketech Group Ltd,no,Oleh Zharovskyi,Ivano,Junior,Retainer,Lisa,64,64,11.90625,762,12.031179138321995,769.9954648526077,-7.995464852607711,-0.010383781746218726,Arvid
+44104.0,Raketech Retainer (A.Shliakhova),Raketech Group Ltd,no,Anna Shliakhova,Odesa,Junior,Retainer,Lisa,168,168,11.904761904761905,2000,11.043083900226756,1855.2380952380952,144.76190476190482,0.07802874743326492,Arvid
+44104.0,Raketech Retainer (V.Nikolenko),Raketech Group Ltd,no,Volodymyr Nikolenko,Odesa,Junior,Retainer,Lisa,168,168,11.904761904761905,2000,11.043083900226756,1855.2380952380952,144.76190476190482,0.07802874743326492,Arvid
+44104.0,Raketech Retainer (O.Leshchenko),Raketech Group Ltd,no,Maksym Mudriak,Odesa,Junior,Retainer,Lisa,168,168,11.904761904761905,2000,12.164115646258503,2043.5714285714287,-43.57142857142867,-0.02132121635791686,Arvid
+44104.0,Raketech Retainer (M.Mudriak),Raketech Group Ltd,no,Oleksandr Leshchenko,Odesa,Junior,Retainer,Lisa,168,168,11.904761904761905,2000,11.3109410430839,1900.2380952380954,99.76190476190459,0.052499686756045515,Arvid
+44104.0,Raketech Retainer (G.Sklavo),Raketech Group Ltd,no,George Sklavo,Odesa,Junior,Retainer,Lisa,128,128,11.9140625,1525,11.638321995464853,1489.7052154195012,35.2947845804988,0.023692462250365275,Arvid
+44104.0,Heroes Linked,Military & Veterans Appreciation Trust Foundation,no,Elena Vronskaya,Odesa,Senior,Retainer,Lisa,208,208,16.072115384615383,3343,17.11451247165533,3559.818594104309,-216.8185941043089,-0.06090720309832612,N/A
+44104.0,Prokit,Prokit LLC,no,Ekaterina Demianchuk,Odesa,Senior,T&M,Lisa,81,81,30,2430,9.85796485260771,798.4951530612245,1631.5048469387755,2.043224483810586,Arvid
+44104.0,Beetroot FT Developer (I.Beskorovayna),Beetroot,no,Irina Beskorovaina,Poltava,Junior,Retainer,Lisa,128,128,14.265625,1826,11.281179138321995,1443.9909297052154,382.0090702947846,0.2645508793969849,N/A
+44104.0,Beetroot QA,Beetroot,no,Olga Azarova,Odesa,Junior,T&M,Lisa,11,14,15,165,13,182,-17,-0.09340659340659341,N/A
+44104.0,BA support,Beetroot,no,Dmytro Olhovskyi,Poltava,Senior,T&M,Lisa,7,7,15,105,21,147,-42,-0.2857142857142857,N/A
+44104.0,Beetroot design help,Beetroot,no,Anastasia Onyskiv,Poltava,Designer,T&M,Lisa,18,18,15,180,10,180,0,0,N/A
+44046.0,Middle Retainer (R.Kulyk),8 Digital AB,no,Roman Kulyk,Ivano,Middle,Retainer,AR,168,168,20.83,3500,18.43046536796537,3096.318181818182,403.681818181818,0.13037478530219168,Arvid
+44046.0,Middle Retainer (V.Filonenko),8 Digital AB,no,Vladislav Filonenko,Poltava,Middle,Retainer,AR,168,168,20.83,3500,16.103084415584416,2705.318181818182,794.681818181818,0.2937480047717458,Arvid
+44044.0,Middle Retainer (K.Fedoseeva),"Inverse Paradox, LLC",no,Kateryna Fedoseyeva,Odesa,Middle,Retainer,AR,168,168,17.86,3000,14.585227272727273,2450.318181818182,549.681818181818,0.22433079191941668,Semyon
+44044.0,Middle Retainer (V.Bezbozshniy),"Inverse Paradox, LLC",no,Volodymyr Bezbozhnyi,Poltava,Middle,Retainer,AR,160,160,17.86,2857,16.103084415584416,2576.4935064935066,280.50649350649337,0.10887141488986334,Semyon
+44044.0,Junior Retainer (E.Biniuk),"Inverse Paradox, LLC",no,Eduard Biniuk,Poltava,Junior,Retainer,AR,152,152,11.9,1810,11.88284632034632,1806.1926406926407,3.80735930735932,0.0021079475254086244,Semyon
+44044.0,Junior Retainer (Y.Nepiyvoda),"Inverse Paradox, LLC",no,Yana Nepiyvoda,Kremen,Junior,Retainer,AR,40,40,11.9,476,10.876893939393941,435.0757575757576,40.92424242424238,0.09406233675779198,Semyon
+44053.0,Junior Retainer (Y.Nepiyvoda),Fat Cat Strategies,no,Yana Nepiyvoda,Kremen,Junior,Retainer,AR,168,168,14.88,2500,10.876893939393941,1827.3181818181822,672.6818181818178,0.36812517101564607,Semyon
+44054.0,Laguna Art Museum,Studio Misfits Inc.,no,Denys Papirnyk,Poltava,Middle,T&M,AP,32,32,30,960,13.126893939393941,420.0606060606061,539.9393939393939,1.285384504400519,N/A
+44056.0,Middle Retainer ,Memira Holding AB,no,Sergei Semeniuk,Odesa,Middle,Retainer,IV,168,168,20.833333333333332,3500,18.75189393939394,3150.318181818182,349.681818181818,0.11099888900111093,Arvid
+44044.0,Middle Retainer (Olena Anhelchuk),Defakto,no,Olena Anhelchuk,Poltava,Middle,Retainer,IV,168,168,18,3024,20.269751082251084,3405.318181818182,-381.318181818182,-0.11197725482867711,Semyon
+44044.0,Junior Retainer (Alexander Horbanov),Defakto,no,Alexander Gorbanev,Odesa,Middle,Retainer,IV,144,144,12,1728,13.989989177489178,2014.5584415584417,-286.5584415584417,-0.14224379677799917,Semyon
+44056.0,Citihub Digital (1st prepayment),Craft & Root,yes,Andrii Vovk,Odesa,Middle,FP,IV,101,101,28.5,2869,11.31141774891775,1142.4531926406928,1726.5468073593072,1.5112626219447354,Semyon
+44053.0,Sanitizer Tap Challenge,Jacov Mazor,no,Roman Kulyk,Ivano,Senior,FP,IV,22,28,30,660,11.990556070913215,335.73556998557,324.26443001443,0.9658328130926579,Semyon
+44054.0,Billdals Ridklubb (50% prepayment),Billdals Ridklubb,yes,Maxim Kardanets,Odesa,Senior,FP,IV,38,38,30,1140,19.94237012987013,757.8100649350649,382.18993506493507,0.5043347307582726,Arvid
+44060.0,We All Count,"Datassist, Inc",yes,Oleh Draganchuk,Ivano,Senior,FP,AP,16,,30,500,18,0,500,,Nikita
+44063.0,Cardinal Gates - Additional,Interactive Search Marketing,no,Maxim Kardanets,Odesa,Senior,FP,AR,8,8,30,240,19.94237012987013,159.53896103896105,80.46103896103895,0.5043347307582725,N/A
+44074.0,InterimCFO,Bronte Limited,no,Vlad Kushnir,Odesa,Junior,T&M,IV,23,23,30,690,11.31141774891775,260.1626082251082,429.8373917748918,1.652187432726577,N/A
+44074.0,The Long Road To Freedom website (additional tasks),"Colour Outside, LLC",no,Oleh Kozyk,Poltava,Junior,FP,IV,58,58,30,1740,5.642766955266955,327.2804834054834,1412.7195165945166,4.316540668403472,N/A
+44074.0,OI Events,"Colour Outside, LLC",no,Yuri Nifontov,Odesa,Senior,T&M,IV,13.5,13.5,30,405,19,256.5,148.5,0.5789473684210527,N/A
+44074.0,CO fixes,"Colour Outside, LLC",no,Vlad Kushnir,Odesa,Junior,T&M,IV,4,2,30,120,11.31141774891775,22.6228354978355,97.3771645021645,4.304374865453154,N/A
+44074.0,This is My Earth (additional tasks) ,Agent Interactive Network Ltd. ,no,Sergei Semeniuk,Odesa,Senior,T&M,IV,3,3,30,90,18.75189393939394,56.25568181818183,33.74431818181817,0.5998384001615996,Semyon
+44074.0,WP Maintenance,"Oomph, Inc.",no,Alona Mnushka,Poltava,Junior,T&M,AP,27.5,32,30,825,11.13284632034632,356.25108225108227,468.74891774891773,1.3157824385738934,Nikita
+44074.0,Neato Robotics - Customer Care Center + Zendesk Integration,Xaicode,no,Maxim Kardanets,Odesa,Senior,T&M,AP,5,5,60,300,19.94237012987013,99.71185064935065,200.28814935064935,2.0086694615165452,Ross
+44074.0,Great.com (Design),Aveny Ltd,no,Anastasia Onyskiv,Odesa,Middle,T&M,IV,28,28,30,840,10,280,560,2,N/A
+44074.0,Great.com Middle Retainer,Aveny Ltd,no,Yuliia Lunova,Odesa,Junior,Retainer,IV,128,128,20.8333333,2667,13.097132034632036,1676.4329004329006,990.5670995670994,0.5908778689032577,N/A
+44074.0,Skyresponse - new website design,Skyresponse AB,no,Anastasia Onyskiv,Odesa,Designer,T&M,AP,20.5,20.5,30,615,10,205,410,2,N/A
+44074.0,Skyresponse illustrations & logos,Skyresponse AB,no,Anastasia Onyskiv,Odesa,Designer,T&M,AP,4,4,30,120,10,40,80,2,N/A
+44074.0,RLJ Lodging Trust (additional tasks),"Financial Communications, Inc.",no,Oleh Kozyk,Poltava,Junior,FP,IV,2.5,2.5,30,75,5.642766955266955,14.106917388167389,60.89308261183261,4.316540668403471,N/A
+44074.0,Dwigth D. Opperman Foundation,"Financial Communications, Inc.",no,Oleh Kozyk,Poltava,Junior,FP,IV,18,18,30,540,5.642766955266955,101.5698051948052,438.4301948051948,4.316540668403471,N/A
+44074.0,Lawline Agreement Form (August),Aducera Holding AB,no,Galina Zaporozhchenko,Odesa,Middle,T&M,IV,126,126,30,3780,14.484036796536797,1824.9886363636365,1955.0113636363635,1.071245773634954,Arvid
+44074.0,6666 Ranch - side-menu (additional tasks),Speedsquare,no,Denys Papirnyk,Poltava,Middle,T&M,AP,2,2,30,60,13.126893939393941,26.253787878787882,33.74621212121212,1.285384504400519,Ross
+44074.0,On the Road website development (additional),Dumont bvba,no,Oleksandra Kolotukhina,Poltava,Junior,FP,AP,25,15,25,625,11.93641774891775,179.04626623376623,445.95373376623377,2.4907178638620033,Viktoria
+44074.0,Raketech Retainer (S.Mazur),Raketech Group Ltd,no,Serhii Mazur,Odesa,Junior,Retainer,Lisa,168,168,11.904761904761905,2000,12.204274891774892,2050.318181818182,-50.31818181818198,-0.02454164542088819,Arvid
+44074.0,Raketech Retainer (A.Tkach),Raketech Group Ltd,no,Andrii Tkach,Odesa,Junior,Retainer,Lisa,64,64,11.90625,762,11.609036796536797,742.978354978355,19.021645021644986,0.025601883142610714,Arvid
+44074.0,Raketech Retainer (V.Khomovyi),Raketech Group Ltd,no,Volodymyr Khomovyi,Ivano,Junior,Retainer,Lisa,156,156,11.602564102564102,1810,18.43046536796537,2875.1525974025976,-1065.1525974025976,-0.370468196493241,Arvid
+44074.0,Raketech Retainer (O.Zharovskyi),Raketech Group Ltd,no,Oleh Zharovskyi,Ivano,Junior,Retainer,Lisa,128,128,11.90625,1524,11.88284632034632,1521.004329004329,2.9956709956709346,0.001969534825474128,Arvid
+44074.0,Raketech Retainer (A.Shliakhova),Raketech Group Ltd,no,Anna Shliakhova,Odesa,Junior,Retainer,Lisa,156,156,11.602564102564102,1810,10.894751082251084,1699.581168831169,110.41883116883105,0.06496825994181141,Arvid
+44074.0,Raketech Retainer (V.Nikolenko),Raketech Group Ltd,no,Volodymyr Nikolenko,Odesa,Junior,Retainer,Lisa,168,168,11.904761904761905,2000,10.894751082251084,1830.318181818182,169.68181818181802,0.09270618620706772,Arvid
+44074.0,Raketech Retainer (O.Leshchenko),Raketech Group Ltd,no,Maksym Mudriak,Odesa,Junior,Retainer,Lisa,160,160,11.90625,1905,11.93641774891775,1909.82683982684,-4.826839826839887,-0.0025273704014325857,Arvid
+44074.0,Raketech Retainer (M.Mudriak),Raketech Group Ltd,no,Oleksandr Leshchenko,Odesa,Junior,Retainer,Lisa,156,156,11.602564102564102,1810,10.626893939393941,1657.7954545454547,152.20454545454527,0.09181141439205943,Arvid
+44074.0,Raketech Retainer (G.Sklavo),Raketech Group Ltd,no,George Sklavo,Odesa,Junior,Retainer,Lisa,156,156,11.602564102564102,1810,11.489989177489178,1792.4383116883118,17.561688311688158,0.00979765283813124,Arvid
+44074.0,Prokit,Prokit LLC,no,Ekaterina Demianchuk,Odesa,Senior,T&M,Lisa,63,63,30,1890,9.134632034632034,575.4818181818182,1314.5181818181818,2.284204540069191,Arvid
+44074.0,Artely - T&M tasks (August),Artely AB,no,Elena Vronskaya,Odesa,Senior,T&M,IV,10,10,30,300,16.966179653679653,169.66179653679654,130.33820346320346,0.7682236432934122,N/A
+44074.0,Heroes Linked,Military & Veterans Appreciation Trust Foundation,no,Elena Vronskaya,Odesa,Senior,Retainer,Lisa,156,156,15.66025641025641,2443,16.966179653679653,2646.724025974026,-203.72402597402606,-0.0769721451782466,N/A
+44065.0,Junior retainer (S.Sinelnikova),"Brain Bytes Creative, LLC",no,Svetlana Sinelnikova,Odesa,Junior,Retainer,AR,48,48,14.88,714,12.799512987012989,614.3766233766235,99.62337662337654,0.16215359249159728,Semyon
+44044.0,Senior Retainer (A.Klimenko),Lahav Media W&W Marketing,no,Anastasia Klimenko,Odesa,Senior,Retainer,AR,160,160,17.86,2857,15.775703463203465,2524.1125541125543,332.88744588744566,0.13188296430960253,Semyon
+44060.0,Junior retainer (O.Kolotukhina),"Inverse Paradox, LLC",no,Oleksandra Kolotukhina,Poltava,Junior,Retainer,AR,72,72,11.9,857,11.93641774891775,859.422077922078,-2.4220779220779605,-0.0028182635567544326,Semyon
+44074.0,E-Learning Platform,Marsmedia BV,no,Oleksandr Piven,Poltava,Middle,T&M,AP,40,40,60,2400,12.531655844155845,501.26623376623377,1898.7337662337663,3.787874862361552,Semyon
+44044.0,Middle retainer (D.Kubrakov),Briteweb Inc.,no,Denys Kubrakov,Poltava,Middle,Retainer,AR,168,168,"$20,83",3500,16.103084415584416,2705.318181818182,794.681818181818,0.2937480047717458,Semyon
+44046.0,Middle Retainer (N.Lobach),Briteweb Inc.,no,Nikita Lobach,Odesa,Middle,Retainer,AR,40,40,"$20,83",833,15,600,233,0.3883333333333333,Semyon
+44074.0,Beetroot FT Developer (I.Beskorovayanaya),Beetroot,no,Irina Beskorovaina,Poltava,Junior,Retainer,Lisa,152,152,12.013157894736842,1826,12.01578282828283,1826.3989898989903,-0.398989898990294,-0.0002184571395390228,N/A
+44074.0,Beetroot FT Developer (D.Haiduk),Beetroot,no,Dariia Haiduk,Poltava,Junior,Retainer,Lisa,152,152,12.013157894736842,1826,11.013798701298702,1674.0974025974028,151.90259740259717,0.09073701277292265,N/A
+44074.0,Beetroot QA,Beetroot,no,Olga Azarova,Odesa,Junior,T&M,Lisa,14,14,15,210,13,182,28,0.15384615384615385,N/A
+44074.0,BA support,Beetroot,no,Oleh Kozyk,Poltava,Junior,T&M,Lisa,11,11,15,165,5.642766955266955,62.070436507936506,102.9295634920635,1.6582703342017358,N/A
+44074.0,Beetroot design help,Beetroot,no,Anastasia Onyskiv,Poltava,,T&M,Lisa,12,12,15,180,10,120,60,0.5,N/A
+44074.0,Beetroot Hub,Beetroot,no,Olga Azarova,Poltava,Middle,T&M,AP,14.5,14.5,15,217.5,13,188.5,29,0.15384615384615385,N/A
+44013.0,Middle Retainer (Olena Anhelchuk),Defakto,no,Olena Anhelchuk,Poltava,Middle,Retainer,IV,168,168,18,3024,,,,,Semyon
+44013.0,Junior Retainer (Alexander Horbanov),Defakto,no,Alexander Gorbanev,Odesa,Middle,Retainer,IV,152,152,12,1824,,,,,Semyon
+44013.0,Middle Retainer ,Memira Holding AB,no,Sergey Semenyuk,Odesa,Middle,Retainer,IV,160,160,20.83333,3333.3328,,,,,Arvid
+44013.0,Junior Retainer ,FlipsMedia LTD,yes,Dmytro Kolisnyk,Odesa,Junior,Retainer,IV,168,168,14.880952380952381,2500,,,,,Semyon
+44013.0,Middle Retainer (V. Bezbozhniy),"Inverse Paradox, LLC",no,Volodymyr Bezbozhnyi,Poltava,Middle,Retainer,AR,160,160,17.86,2857,,,,,Semyon
+44013.0,Middle Retainer (K.Fedoseeva),"Inverse Paradox, LLC",no,Kateryna Fedoseyeva,Odesa,Middle,Retainer,AR,152,152,17.86,2714,,,,,Semyon
+44013.0,Junior Retainer (E.Biniuk),"Inverse Paradox, LLC",no,Eduard Biniuk,Poltava,Junior,Retainer,AR,168,168,11.9,2000,,,,,Semyon
+44019.0,Junior Retainer (Y.Nepiyvoda),"Inverse Paradox, LLC",no,Yana Nepyivoda,Poltava,Junior,Retainer,AR,152,152,11.9,1810,,,,,Semyon
+44020.0,Brave Asset Site Update,BRAVE ASSET MANAGEMENT LLC,yes,Dmytro Kolisnyk,Odesa,Graduate,FP,AR,16,14,30,480,,,,,Semyon
+44020.0,Balz Marti website,Dotmade,yes,Oleg Kozyk,Poltava,Junior,FP,AR,42,45,26,1092,,,,,Nikita
+44039.0,Speed Reaction Game website,Jacov Mazor,yes,Roman Kulyk,Ivano,Senior,FP,IV,28,46,30,840,,,,,Semyon
+44040.0,On the Road website development,Dumont bvba,no,Alex Kolotukhina,Poltava,Junior,FP,AP,85,85,25,2125,,,,,Viktoria
+44043.0,On the Road logo,Dumont bvba,no,Anastasia Onyskiv,Odesa,Designer,T&M,AP,6,6,30,180,,,,,Viktoria
+44042.0,Junior Retainer (E.Shepel),AWESEM Limited,no,Eduard Shepel,Poltava,Middle,Retainer,AP,168,168,30,2262,,,,,Nikita
+44043.0,Skyresponse - new website design,Skyresponse AB,no,Anastasia Onyskiv,Odesa,Designer,T&M,AP,20,20,30,600,,,,,N/A
+44043.0,Neato Robotics - Customer Care Center + Zendesk Integration,Xaicode,no,Maxim Kardanets,Odesa,Senior,T&M,AP,52,52,60,3120,,,,,Ross
+44043.0,PlayAttack additional,Regula Trading Limited,no,Maxim Kardanets,Odesa,Senior,T&M,AP,17,17,30,510,,,,,Semyon
+44040.0,Senior retainer (D.Chekulaev),Emazing-Retailing-Europe,no,Dmitriy Chekulaiev,Poltava,Senior,Retainer,AR,168,168,20.83,3500,,,,,Semyon
+44034.0,Junior retainer (S.Sinelnikova),"Brain Bytes Creative, LLC",no,Svetlana Sinelnikova,Odesa,Junior,Retainer,AR,152,152,14.88,2262,,,,,Semyon
+44040.0,Junior retainer (A.Veklenko),Studio Bovenkamer,no,Anastasiia Veklenko,Poltava,Junior,Retainer,AR,168,168,11.9,2000,,,,,Semyon
+44013.0,Senior Retainer (A.Klimenko),Lahav Media W&W Marketing,no,Anastasia Klimenko,Odesa,Senior,Retainer,AR,136,136,17.86,2429,,,,,Semyon
+44018.0,Middle Retainer (O.Krekoten),SiteWorks Oy,no,Olexii Krekoten,Poltava,Middle,Retainer,AR,168,168,20.83,2833,,,,,N/A
+44043.0,SportsVox,Internet Vikings International AB,no,Yana Nepyivoda,Kremen,Junior,T&M,AP,3,3,30,90,,,,,N/A
+44015.0,Zoom Update,Stockholm Capital Group AB,no,Olexandr Piven,Poltava,Junior,FP,AR,2,5,30,60,,,,,Bjorn
+44035.0,Full QA of the AMC site,AMC Consultants Pty Ltd,yes,Kostantin Kusch,Poltava,,FP,AR,6,5,30,180,,,,,Viktoria
+44043.0,Great.com ,Aveny Ltd,no,Andrey Vovk,Odesa,Junior,T&M,IV,16,16,30,480,,,,,N/A
+44043.0,Great.com (Design),Aveny Ltd,no,Anastasia Onyskiv,Odesa,Middle,T&M,IV,4,4,30,120,,,,,N/A
+44033.0,Great.com Middle Retainer,Aveny Ltd,no,Yuliia Lunova,Odesa,Junior,Retainer,IV,168,168,30,3500,,,,,N/A
+44043.0,Credito Rapido (final payment),ALTS Digital Unipessoal LDA,no,Andrey Vovk,Odesa,Junior,FP,IV,48,48,30,1440,,,,,Semyon
+44043.0,Mumzworld - Questions/Answers module - final payment,Mumzworld FZ LLC,no,Papyrnyk/Shepel,Poltava,Junior,FP,AR,84,129,30,2520,,,,,Ross
+44043.0,Mumzworld - Questions/Answers module - additional,Mumzworld FZ LLC,no,Papyrnyk/Shepel,Poltava,Junior,FP,AR,25,25,30,750,,,,,Ross
+44043.0,Scintilla Markets Tool (additional tasks),Philipp Hoegerle,no,Olexandr Piven,Poltava,Middle,FP,IV,11.5,,30,345,,,,,Nikita
+44043.0,ERT website update,ZN Consulting,no,Oleksandr Leshchenko,Poltava,Junior,FP,IV,31,20,30,930,,,,,N/A
+44043.0,Our Way Tours - Redesign (Braintree integration),OURWAY Tours AB,no,Draganchuk/Martynenko,,,T&M,AR,3,3,30,90,,,,,N/A
+44043.0,Our Way Tours - Redesign (Rezdy Integration),OURWAY Tours AB,no,Draganchuk/Martynenko,,,T&M,AR,13,13,30,390,,,,,N/A
+44043.0,Our Way Tours - Redesign (Mailchimp Integration),OURWAY Tours AB,no,Draganchuk/Martynenko,,,T&M,AR,4,4,30,120,,,,,N/A
+44013.0,Middle Retainer (N. Lobach),Briteweb Inc.,no,Nikita Lobach,Odesa,Middle,Retainer,AR,168,168,20.83,3500,,,,,Semyon
+44013.0,Middle Retainer (V. Filonenko),Briteweb Inc.,no,Vladislav Filonenko,Poltava,Middle,Retainer,AR,128,128,20.83,2667,,,,,Semyon
+44013.0,Middle Retainer (D. Kubrakov),Briteweb Inc.,no,Denys Kubrakov,Poltava,Middle,Retainer,AR,128,128,20.83,2667,,,,,Semyon
+44043.0,RLJ Lodging Trust (additional tasks),"Financial Communications, Inc.",no,Alena Mnushka,Poltava,Junior,FP,IV,4,4,30,120,,,,,N/A
+44043.0,RLJ Companies (additional tasks),"Financial Communications, Inc.",no,Oleksandr Leshchenko,Poltava,Junior,FP,IV,6,6,30,180,,,,,N/A
+44043.0,Transifex,Transifex US,no,George Sklavo,Odesa,Junior,T&M,IV,9,,30,270,,,,,Semyon
+44043.0,This is My Earth (additional tasks) ,Agent Interactive Network Ltd. ,no,Sergey Semenyuk,Odesa,Senior,T&M,IV,27,27,30,810,,,,,Semyon
+44043.0,WP Maintenance,"Oomph, Inc.",no,Alena Mnushka,Poltava,Junior,T&M,AP,47,47,30,1410,,,,,Nikita
+44043.0,Raketech Retainer (S.Mazur),Raketech Group Ltd,no,Serhii Mazur,Odesa,Junior,Retainer,Lisa,120,120,11.908333333333333,1429,,,,,Arvid
+44043.0,Raketech Retainer (A.Tkach),Raketech Group Ltd,no,Andrii Tkach,Odesa,Junior,Retainer,Lisa,160,160,11.90625,1905,,,,,Arvid
+44043.0,Raketech Retainer (V.Khomovyi),Raketech Group Ltd,no,Volodymyr Khomovyi,Ivano,Junior,Retainer,Lisa,160,160,11.90625,1905,,,,,Arvid
+44043.0,Raketech Retainer (O.Zharovskyi),Raketech Group Ltd,no,Oleh Zharovskyi,Ivano,Junior,Retainer,Lisa,160,160,11.90625,1905,,,,,Arvid
+44043.0,Raketech Retainer (A.Shliakhova),Raketech Group Ltd,no,Anna Shliakhova,Odesa,Junior,Retainer,Lisa,168,168,11.904761904761905,2000,,,,,Arvid
+44043.0,Raketech Retainer (V.Nikolenko),Raketech Group Ltd,no,Volodymyr Nikolenko,Odesa,Junior,Retainer,Lisa,168,168,11.904761904761905,2000,,,,,Arvid
+44043.0,Raketech Retainer (O.Leshchenko),Raketech Group Ltd,no,Maxim Mudriak,Odesa,Junior,Retainer,Lisa,40,40,12.5,500,,,,,Arvid
+44043.0,Raketech Retainer (M.Mudriak),Raketech Group Ltd,no,Oleksandr Leshchenko,Odesa,Junior,Retainer,Lisa,40,40,12.5,500,,,,,Arvid
+44043.0,Raketech Retainer (G.Sklavo),Raketech Group Ltd,no,George Sklavo,Odesa,Junior,Retainer,Lisa,40,40,12.5,500,,,,,Arvid
+44043.0,Heroes Linked,Military & Veterans Appreciation Trust Foundation,no,Elena Vronskaya,Odesa,Senior,Retainer,Lisa,168,168,16.071428571428573,2700,,,,,N/A
+44043.0,Prokit,Prokit LLC,no,Ekaterina Demianchuk,Odesa,Senior,T&M,Lisa,88,88,30,2640,,,,,Arvid
+44043.0,Lawline Agreement Form,Aducera Holding AB,no,Galina Zaporozhchenko,Odesa,Middle,T&M,IV,141,141,30,4230,,,,,N/A
+44043.0,OI Events,"Colour Outside, LLC",no,Yuliia Lunova,Odesa,Junior,T&M,IV,72,76,30,2160,,,,,N/A
+44043.0,BA HR Test,Beetroot,no,Maxim Mudriak,Poltava,Junior,T&M,AP,57,57,15,855,,,,,N/A
+44043.0,Beetroot FT Developer (I.Beskorovayanaya),Beetroot,no,Irina Beskorovaina,Poltava,Junior,Retainer,Lisa,152,152,11.927631578947368,1813,,,,,N/A
+44043.0,Beetroot FT Developer (D.Haiduk),Beetroot,no,Daria Haiduk,Poltava,Junior,Retainer,Lisa,152,152,11.927631578947368,1813,,,,,N/A
+44043.0,Beetroot QA,Beetroot,no,Olga Azarova,Odesa,Junior,T&M,Lisa,20,20,15,300,,,,,N/A
+43985.0,Geo Plugin Development,Stockholm Capital Group AB,yes,Olexandr Piven,Poltava,Junior,FP,AR,55,57,30,1620,,,,,Bjorn
+43987.0,On the Road (prepayment),Dumont bvba,no,Alex Kolotukhina,Poltava,Junior,FP,AP,83,83,25,2075,,,,,Viktoria
+43983.0,Middle Retainer (V.Bezboszhniy),"Inverse Paradox, LLC",no,Volodymyr Bezbozhnyi,Poltava,Middle,Retainer,AR,168,168,17.86,3000,,,,,Semyon
+43983.0,Middle Retainer (K. Fedoseeva),"Inverse Paradox, LLC",no,Kateryna Fedoseyeva,Odesa,Middle,Retainer,AR,152,152,17.86,2714,,,,,Semyon
+43983.0,Junior Retainer (E.Biniuk),"Inverse Paradox, LLC",no,Eduard Biniuk,Poltava,Junior,Retainer,AR,168,168,11.9,2000,,,,,Semyon
+43992.0,Question/Answer Module Development - 50% prepayment,Mumzworld FZ LLC,yes,Piven/Shepel,Poltava,Junior,FP,AR,84,129,30,2520,,,,,Ross
+43983.0,Middle Retainer (Olena Anhelchuk),Defakto,no,Olena Anhelchuk,Poltava,Middle,Retainer,IV,168,168,18,3024,,,,,Semyon
+43983.0,Junior Retainer (Alexander Horbanov),Defakto,no,Alexander Gorbanev,Odesa,Junior,Retainer,IV,168,168,12,2016,,,,,Semyon
+43983.0,Middle Retainer ,Memira Holding AB,no,Sergey Semenyuk,Odesa,Middle,Retainer,IV,144,144,20.8333,2999.9952000000003,,,,,Arvid
+44006.0,Neato Robotics Customer Care Center,Xaicode,no,Maxim Kardanets,Odesa,Senior,T&M,AP,34,34,60,2040,,,,,Ross
+43991.0,Middle Retainer (O.Krekoten),8 Digital AB,no,Olexii Krekoten,Poltava,Middle,Retainer,AR,96,96,19.64,1886,,,,,N/A
+44004.0,Junior retainer (S.Sinelnikova),"Brain Bytes Creative, LLC",no,Svetlana Sinelnikova,Odesa,Junior,Retainer,AR,168,168,14.88,2500,,,,,Semyon
+44012.0,Skyresponse website (design),Skyresponse AB,no,Anastasia Onyskiv,Odesa,Designer,T&M,AP,14,14,30,420,,,,,N/A
+44012.0,Kenny Stevens Team tasks,Studio Misfits Inc.,no,Roman Kulyk,Ivano,Middle,T&M,AP,5,5,30,150,,,,,N/A
+44012.0,Cobalt Robotics ROI Calculator - updates June 2020,Xaicode,no,Daria Haiduk,Odesa,Graduate,FP,AP,20,62,30,600,,,,,Ross
+44010.0,Senior retainer (D.Chekulaev),Emazing-Retailing-Europe,no,Dmitriy Chekulaiev,Poltava,Senior,Retainer,AR,168,168,20.83,3500,,,,,Semyon
+44012.0,Raketech Retainer (S.Mazur),Raketech Group Ltd,no,Serhii Mazur,Odesa,Junior,Retainer,Lisa,160,160,11.90625,1905,,,,,Arvid
+44012.0,Raketech Retainer (A.Tkach),Raketech Group Ltd,no,Andrii Tkach,Odesa,Junior,Retainer,Lisa,152,152,11.907894736842104,1810,,,,,Arvid
+44012.0,Raketech Retainer (V.Khomovyi),Raketech Group Ltd,no,Volodymyr Khomovyi,Ivano,Junior,Retainer,Lisa,168,168,11.904761904761905,2000,,,,,Arvid
+44012.0,Raketech Retainer (O.Zharovskyi),Raketech Group Ltd,no,Oleh Zharovskyi,Ivano,Junior,Retainer,Lisa,168,168,11.904761904761905,2000,,,,,Arvid
+44012.0,Raketech Retainer (A.Shliakhova),Raketech Group Ltd,no,Anna Shliakhova,Odesa,Graduate,Retainer,Lisa,168,168,11.904761904761905,2000,,,,,Arvid
+44012.0,Raketech Retainer (V.Nikolenko),Raketech Group Ltd,no,Volodymyr Nikolenko,Odesa,Graduate,Retainer,Lisa,168,168,11.904761904761905,2000,,,,,Arvid
+44012.0,Heroes Linked,Military & Veterans Appreciation Trust Foundation,no,Elena Vronskaya,Odesa,Senior,Retainer,Lisa,144,144,16.069444444444443,2314,,,,,N/A
+44012.0,Heroes Linked,Military & Veterans Appreciation Trust Foundation,no,Vlad Kushnir,Odesa,Junior,Retainer,Lisa,168,168,16.071428571428573,2700,,,,,N/A
+43983.0,Senior Retainer (A.Klimenko),Lahav Media W&W Marketing,no,Anastasia Klimenko,Odesa,Senior,Retainer,AR,136,136,17.86,2429,,,,,Semyon
+44012.0,Super Pariuri,Catena Operations Ltd,no,George Sklavo,Odesa,Graduate,FP,IV,13,13,30,390,,,,,Semyon
+44010.0,Junior retainer (A.Veklenko),Studio Bovenkamer,no,Anastasiia Veklenko,Poltava,Junior,Retainer,AR,160,160,11.9,1905,,,,,Semyon
+44012.0,OURWAY Tours site,OURWAY Tours AB,no,Aleksander Martynenko,Odesa,Junior,FP,AR,,,30,1692,,,,,N/A
+44012.0,Casino Blockchain (addtional tasks),ALTS Digital Unipessoal LDA,no,Andrey Vovk,Odesa,Junior,T&M,IV,15,15,30,450,,,,,Semyon
+44012.0,OURWAY Tours site - Braintree integration,OURWAY Tours AB,no,Aleksander Martynenko,Odesa,Junior,T&M,AR,7,7,30,210,,,,,N/A
+44012.0,OURWAY Tours site- Rezdy integration,OURWAY Tours AB,no,Aleksander Martynenko,Odesa,Junior,T&M,AR,22,22,30,660,,,,,N/A
+43983.0,Middle Retainer (D. Kubrakov),Briteweb Inc.,no,Denys Kubrakov,Poltava,Middle,Retainer,AR,168,168,20.83,3500,,,,,Semyon
+43983.0,Middle Retainer (N. Lobach),Briteweb Inc.,no,Nikita Lobach,Odesa,Middle,Retainer,AR,168,168,20.83,3500,,,,,Semyon
+43983.0,Middle Retainer (V. Filonenko),Briteweb Inc.,no,Vladislav Filonenko,Poltava,Middle,Retainer,AR,136,136,20.83,2833,,,,,Semyon
+44012.0,Sportscalendar (additional tasks),Agonas AB,no,Oleg Draganchuk,Ivano,Senior,FP,IV,4,4,30,120,,,,,Arvid
+44012.0,Sportguider,Agonas AB,no,Roman Kulyk,Ivano,Senior,FP,IV,40,,30,1200,,,,,Arvid
+44012.0,Sportguider (additional tasks),Agonas AB,no,Roman Kulyk,Ivano,Senior,FP,IV,15,,30,450,,,,,Arvid
+44012.0,Prokit,Prokit LLC,no,Ekaterina Demianchuk,Odesa,Senior,T&M,Lisa,94,94,30,2820,,,,,Arvid
+44012.0,Lawline Agreement Form,Aducera Holding AB,no,Galina Zaporozhchenko,Odesa,Middle,T&M,IV,166,166,30,4980,,,,,N/A
+44012.0,Artely - T&M tasks (June),Artely AB,no,Elena Vronskaya,Odesa,Senior,FP,IV,10,10,30,300,,,,,N/A
+44012.0,The Long Road To Freedom website (50% prepayment),"Colour Outside, LLC",no,Maxim Mudriak,Poltava,Middle,FP,IV,76,76,30,2280,,,,,N/A
+44012.0,WISC (additional tasks),"Colour Outside, LLC",no,Olexandr Piven,Poltava,Middle,FP,IV,2,2,30,60,,,,,N/A
+44012.0,RLJ Lodging Trust (additional tasks),"Financial Communications, Inc.",no,Alena Mnushka,Poltava,Junior,FP,IV,22,22,30,660,,,,,N/A
+44012.0,RLJ Companies,"Financial Communications, Inc.",no,Oleksandr Leshchenko,Poltava,Junior,FP,IV,33,,30,990,,,,,N/A
+44012.0,Transifex,Transifex US,no,George Sklavo,Odesa,Junior,T&M,IV,4,4,30,120,,,,,Semyon
+44012.0,WP Maintenance,"Oomph, Inc.",no,Alena Mnushka,Poltava,Junior,T&M,AP,23,43,30,690,,,,,Nikita
+44012.0,SportsVox,Internet Vikings International AB,no,Yana Nepyivoda,Kremen,Junior,T&M,AP,7,7,30,210,,,,,N/A
+44012.0,Play Attack (additinoal tasks),Regula Trading Limited,no,Maxim Kardanets,Odesa,Senior,T&M,AP,25,25,30,750,,,,,Semyon
+44012.0,Beetroot FT developer,Beetroot,no,Irina Beskorovaina,Poltava,Junior,Retainer,Lisa,168,168,10.791666666666666,1813,,,,,N/A
+44012.0,BA support,Beetroot,no,Yana Nepyivoda,Kremen,Junior,T&M,Lisa,12,12,15,180,,,,,N/A
+44012.0,Beetroot.se additional support,Beetroot,no,Vlad Kushnir,Odesa,Junior,T&M,Lisa,35,35,15,525,,,,,N/A
+43959.0,Middle retainer (O.Krekhoten),8 Digital AB,no,Olexii Krekoten,Poltava,Middle,Retainer,AR,160,160,"$18,75",3000,,,,,N/A
+43963.0,Improvements on client's sites,ARKL Marketing LTD,yes,Yana Nepyivoda,Kremen,Junior,T&M,AR,30,30,26,780,,,,,Nikita
+43952.0,Middle Retainer ,Memira Holding AB,no,Sergey Semenyuk,Odesa,Middle,Retainer,IV,168,168,20.833333333333332,3500,,,,,Arvid
+43952.0,Middle Retainer (Olena Anhelchuk),Defakto,no,Olena Anhelchuk,Poltava,Middle,Retainer,IV,96,96,18,1728,,,,,Semyon
+43952.0,Junior Retainer (Alexander Horbanov),Defakto,no,Alexander Gorbanev,Odesa,Junior,Retainer,IV,168,168,12,2016,,,,,Semyon
+43952.0,This is My Earth (WPML update) ,Agent Interactive Network Ltd. ,no,Vlad Kushnir,Odesa,Junior,T&M,IV,13,13,30,390,,,,,Semyon
+43957.0,The Long Road To Freedom website (50% prepayment),"Colour Outside, LLC",no,Denis Papyrnik,Poltava,Middle,FP,IV,76,76,30,2280,,,,,N/A
+43952.0,Junior retainer (O.Kozyk),"Inverse Paradox, LLC",no,Oleg Kozyk,Poltava,Junior,Retainer,AR,168,168,11.9,2000,,,,,Semyon
+43952.0,Middle Retainer (Kate. F),"Inverse Paradox, LLC",no,Kateryna Fedoseyeva,Odesa,Middle,Retainer,AR,152,152,17.86,2714,,,,,Semyon
+43952.0,Middle Retainer (V. Bezbozshniy),"Inverse Paradox, LLC",no,Volodymyr Bezbozhnyi,Poltava,Middle,Retainer,AR,160,160,17.86,2857,,,,,Semyon
+43952.0,Junior Retainer (A.Kolotukhina),"Inverse Paradox, LLC",no,Alex Kolotukhina,Poltava,Junior,Retainer,AR,224,224,11.9,2666,,,,,Semyon
+43973.0,Elitefill additional tasks,Studio Misfits Inc.,no,Roman Kulyk,Ivano,Middle,T&M,AP,20,24,30,600,,,,,N/A
+43980.0,Kenny Stevens Team tasks,Studio Misfits Inc.,no,Roman Kulyk,Ivano,Middle,T&M,AP,2,1,30,60,,,,,N/A
+43973.0,Junior retainer (S.Sinelnikova),"Brain Bytes Creative, LLC",no,Svetlana Sinelnikova,Odesa,Junior,Retainer,AR,168,168,14.88,2500,,,,,Semyon
+43980.0,Play Attack (remaining 50%),Regula Trading Limited,no,Maxim Kardanets,Odesa,Senior,FP,AP,88,88,30,2640,,,,,Semyon
+43980.0,Play Attack (additional tasks),Regula Trading Limited,no,Maxim Kardanets,Odesa,Senior,T&M,AP,7,7,30,210,,,,,Semyon
+43980.0,Neato Research,Xaicode,no,,Odesa,,T&M,AP,6,6,30,180,,,,,Ross
+43980.0,Sentinel dev tasks (animatinos),Joel Burke,yes,Roman Kulyk,Ivano,Middle,T&M,AP,9,9,25,225,,,,,Semyon
+43980.0,Raketech Retainer (S.Mazur),Raketech Group Ltd,no,Serhii Mazur,Odesa,Junior,Retainer,Lisa,168,168,9.071428571428571,1524,,,,,Arvid
+43980.0,Raketech Retainer (A.Tkach),Raketech Group Ltd,no,Andrii Tkach,Odesa,Junior,Retainer,Lisa,168,168,3.9702380952380953,667,,,,,Arvid
+43980.0,Raketech Retainer (V.Khomovyi),Raketech Group Ltd,no,Volodymyr Khomovyi,Ivano,Junior,Retainer,Lisa,168,168,6.517857142857143,1095,,,,,Arvid
+43980.0,Raketech Retainer (O.Zharovskyi),Raketech Group Ltd,no,Oleh Zharovskyi,Ivano,Junior,Retainer,Lisa,168,168,5.9523809523809526,1000,,,,,Arvid
+43980.0,Prokit,Prokit LLC,no,Ekaterina Demianchuk,Odesa,Senior,T&M,Lisa,85,85,30,2550,,,,,Arvid
+43980.0,Casino Blockchain (100% final payment),ALTS Digital Unipessoal LDA,no,Andrey Vovk,Odesa,Junior,FP,IV,66,,30,1980,,,,,Semyon
+43980.0,Casino Blockchain (addtional tasks),ALTS Digital Unipessoal LDA,no,Andrey Vovk,Odesa,Junior,FP,IV,20,,30,600,,,,,Semyon
+43980.0,Gestlifes.com,ALTS Digital Unipessoal LDA,no,Vlad Kushnir,Odesa,Junior,FP,IV,54,,30,1620,,,,,Semyon
+43980.0,100 Women UNC Kenan Flagler (100% final payment),Darkroom Studios LLC,no,Yuliia Lunova,Odesa,Junior,FP,IV,89,,30,2670,,,,,Semyon
+43980.0,100 Women UNC Kenan Flagler (additional tasks),Darkroom Studios LLC,no,Yuliia Lunova,Odesa,Junior,FP,IV,18,,29,522,,,,,Semyon
+43980.0,Lawline Agreement Form (May),Aducera Holding AB,no,Galina Zaporozhchenko,Odesa,Middle,T&M,IV,156,,30,4680,,,,,N/A
+43980.0,Transifex,Transifex US,no,George Sklavo,Odesa,Graduate,T&M,IV,30,45,30,900,,,,,Semyon
+43980.0,Artely (T&M tasks),Artely AB,no,Elena Vronskaya,Odesa,Senior,FP,IV,7,7,30,210,,,,,N/A
+43980.0,RLJ Lodging Trust (additional tasks),"Financial Communications, Inc.",no,Alena Mnushka,Poltava,Junior,FP,IV,32.5,32.5,30,975,,,,,N/A
+43980.0,Chris Ullman(code updates),"Financial Communications, Inc.",no,Dmytro Olkhovskiy,Poltava,Senior,FP,IV,2,2,30,60,,,,,N/A
+43980.0,Yango (Case Study),Yango Media,yes,Eduard Biniuk,Poltava,Graduate,T&M,IV,4,4,30,120,,,,,Viktoria
+43979.0,Senior retainer (D.Chekulaev),Emazing-Retailing-Europe,no,Dmitriy Chekulaiev,Poltava,Senior,Retainer,AR,168,168,20.83,3500,,,,,Semyon
+43979.0,Junior retainer (A.Veklenko),Studio Bovenkamer,no,Anastasiia Veklenko,Poltava,Junior,Retainer,AR,168,168,11.9,2000,,,,,Semyon
+43952.0,Senior Retainer (A.Klimenko),Lahav Media W&W Marketing,no,Anastasia Klimenko,Odesa,Senior,Retainer,AR,168,168,17.86,3000,,,,,Semyon
+43981.0,Improvements on client's sites,ARKL Marketing LTD,no,Yana Nepyivoda,Kremen,Junior,T&M,AR,4,4,26,104,,,,,Nikita
+43980.0,OURWAY Tours site,OURWAY Tours AB,no,Aleksander Martynenko,Odesa,Junior,FP,AR,,,,1692,,,,,N/A
+43980.0,Checkbox Issue Fix,Naes and Friends AB,no,Oleksandr Leshchenko,Poltava,Junior,T&M,AR,4,4,30,120,,,,,N/A
+43952.0,Middle Retainer (N.Lobach),Briteweb Inc.,no,Nikita Lobach,Odesa,Middle,Retainer,AR,168,168,20.83,3500,,,,,Semyon
+43952.0,Middle Retainer (D.Kubrakov),Briteweb Inc.,no,Denys Kubrakov,Poltava,Middle,Retainer,AR,168,168,20.83,3500,,,,,Semyon
+43952.0,Middle Retainer (V.Filonenko),Briteweb Inc.,no,Vladislav Filonenko,Poltava,Middle,Retainer,AR,168,168,20.83,3500,,,,,Semyon
+43980.0,Heroes Linked,Military & Veterans Appreciation Trust Foundation,no,Elena Vronskaya,Odesa,Senior,Retainer,Lisa,168,168,16.071428571428573,2700,,,,,N/A
+43980.0,On the Road (design),Dumont bvba,no,Anastasia Onyskiv,Odesa,Designer,T&M,AP,27.5,27.5,30,825,,,,,Viktoria
+43980.0,WP Maintenance,"Oomph, Inc.",no,Alena Mnushka,Poltava,Junior,T&M,AP,28,28,30,840,,,,,Nikita
+43980.0,Beetroot Hub,Beetroot,no,Ihor Fedan,Kremen,Middle,T&M,AP,37,37,15,555,,,,,N/A
+43980.0,Beetroot FT developer,Beetroot,no,Irina Beskorovaina,Poltava,Junior,Retainer,Lisa,168,168,10.821428571428571,1818,,,,,N/A
+43980.0,Beetroot QA,Beetroot,no,Olga Azarova,Odesa,Junior,T&M,Lisa,10,10,15,150,,,,,N/A
+43980.0,Project Management page,Beetroot,no,Maxim Mudriak,Poltava,Junior,T&M,Lisa,23,23,15,345,,,,,
+43928.0,Tracking Tages Update on Detra.se,BIGR Reklambyrå AB,no,Dmytro Olkhovskiy,Poltava,Senior,T&M,AR,2,"0,5",30,60,,,,,N/A
+43922.0,Middle Retainer (K.Fedoseeva),"Inverse Paradox, LLC",no,Kateryna Fedoseyeva,Odesa,Middle,Retainer,AR,144,144,17.86,2571,,,,,Semyon
+43922.0,Middle Retainer (V.Bezboszhniy),"Inverse Paradox, LLC",no,Volodymyr Bezbozhnyi,Poltava,Middle,Retainer,AR,152,152,17.86,2714,,,,,Semyon
+43922.0,Junior Retainer (O.Kozyk),"Inverse Paradox, LLC",no,Oleg Kozyk,Poltava,Senior,Retainer,AR,128,128,11.9,1524,,,,,Semyon
+43923.0,Junior Retainer (M.Mudriak),JMJ Web Design Ltd,yes,Maxim Mudriak,Poltava,Junior,Retainer,AP,168,168,14.88,2500,,,,,Ross
+43931.0,Resource Centre Website,NDI,yes,Alena Mnushka,Poltava,Junior,FP,AR,100,100,30,3000,,,,,N/A
+43934.0,Kreuz & Quer Tattoo,Ameisenhaufen GmbH,yes,George Sklavo,Odesa,Graduate,FP,AP,31,82,30,930,,,,,Ross
+43936.0,Morgan Feed Supplies,PWD (Australia),no,Alex Kolotukhina,Poltava,Junior,FP,AP,72,63,30,2160,,,,,Viktoria
+43922.0,Middle Retainer (Olena Anhelchuk),Defakto,no,Olena Anhelchuk,Poltava,Middle,Retainer,IV,168,168,18,3024,,,,,Semyon
+43922.0,Junior Retainer (Alexander Horbanov),Defakto,no,Alexander Gorbanev,Odesa,Junior,Retainer,IV,168,168,12,2016,,,,,Semyon
+43922.0,Middle Retainer ,Memira Holding AB,no,Sergey Semenyuk,Odesa,Middle,Retainer,IV,168,168,20.232142857142858,3399,,,,,Arvid
+43930.0,Middle retainer (O.Krekhoten),8 Digital AB,no,Olexii Krekoten,Poltava,Middle,Retainer,AR,59,128,19.64,1159,,,,,N/A
+43937.0,Action Lock Services,PWD (Australia),no,Yana Nepyivoda,Kremen,Junior,FP,AP,46,112,30,1380,,,,,Viktoria
+43938.0,Dental Health Associates of Swanton ,"Ceatus Media Group, LLC",no,Alex Kolotukhina,Poltava,Junior,FP,IV,32,18,30,960,,,,,N/A
+43943.0,Play Attack (50% prepayment),Regula Trading Limited,yes,Maxim Kardanets,Odesa,Senior,FP,AP,88,88,30,2640,,,,,Semyon
+43938.0,Furhat Robotics - additional templates,Furhat Robotics AB,no,Olexandr Piven,Poltava,Junior,FP,AR,25,24,30,750,,,,,Arvid
+43949.0,Resource Centre Website - phase 2,NDI,yes,Oleksandr Leshchenko,Poltava,Junior,T&M,AR,130,90,30,3900,,,,,N/A
+43943.0,Junior retainer (S.Sinelnikova),"Brain Bytes Creative, LLC",no,Svetlana Sinelnikova,Odesa,Junior,Retainer,AR,168,168,14.88,2500,,,,,Semyon
+43949.0,Senior retainer (Chekulaev),Emazing-Retailing-Europe,no,Dmitriy Chekulaiev,Poltava,Senior,Retainer,AR,168,168,20.83,3500,,,,,Semyon
+43922.0,Senior Retainer (A.Klimeko),Lahav Media W&W Marketing,no,Anastasia Klimenko,Odesa,Senior,Retainer,AR,160,160,17.86,2857,,,,,Semyon
+43949.0,Junior Retainer (A.Veklenko),Studio Bovenkamer,no,Anastasiia Veklenko,Poltava,Junior,Retainer,AR,128,128,11.9,1524,,,,,Semyon
+43950.0,T&M maintenance,Xaicode,no,,Poltava,,T&M,AP,1,1,30,30,,,,,Ross
+43951.0,Great.com,Aveny Ltd,no,Vlad Kushnir,Odesa,Junior,FP,IV,122,,30,3660,,,,,N/A
+43951.0,Great.com (content migration),Aveny Ltd,no,Dmytro Kolisnyk,Odesa,Graduate,FP,IV,5,4,30,150,,,,,N/A
+43951.0,Blue Square (New pages - Buying process; New Developments) ,Diffusion Digital,no,Denis Papyrnik,Poltava,Middle,FP,IV,42,,30,1260,,,,,N/A
+43951.0,Blue Square (New pages - Account/Wishlist) ,Diffusion Digital,no,Denis Papyrnik,Poltava,Middle,T&M,IV,30,30,30,900,,,,,N/A
+43951.0,Slater (addtional task),Diffusion Digital,no,Denis Papyrnik,Poltava,Middle,FP,IV,1,1,25,25,,,,,N/A
+43951.0,Bureaustoelenwebshop,Rickid webdesign,no,Svetlana Sinelnikova,Odesa,Junior,T&M,IV,3,3,30,90,,,,,Nikita
+43951.0,Raketech Retainer (S.Mazur),Raketech Group Ltd,no,Serhii Mazur,Odesa,Junior,Retainer,Lisa,168,168,11.904761904761905,2000,,,,,Arvid
+43951.0,Raketech Retainer (A.Tkach),Raketech Group Ltd,no,Andrii Tkach,Odesa,Junior,Retainer,Lisa,168,168,11.904761904761905,2000,,,,,Arvid
+43951.0,Raketech Retainer (V.Khomovyi),Raketech Group Ltd,no,Volodymyr Khomovyi,Ivano,Junior,Retainer,Lisa,168,168,11.904761904761905,2000,,,,,Arvid
+43951.0,Raketech Retainer (O.Zharovskyi),Raketech Group Ltd,no,Oleh Zharovskyi,Ivano,Junior,Retainer,Lisa,168,168,11.904761904761905,2000,,,,,Arvid
+43951.0,Raketech Retainer (A.Shliakhova),Raketech Group Ltd,no,Anna Shliakhova,Odesa,Graduate,Retainer,Lisa,168,168,11.904761904761905,2000,,,,,Arvid
+43951.0,Raketech Retainer (V.Nikolenko),Raketech Group Ltd,no,Volodymyr Nikolenko,Odesa,Graduate,Retainer,Lisa,168,168,11.904761904761905,2000,,,,,Arvid
+43951.0,Prokit,Prokit LLC,no,Ekaterina Demianchuk,Odesa,Senior,T&M,Lisa,94,94,30,2820,,,,,Arvid
+43951.0,Heroes Linked,Military & Veterans Appreciation Trust Foundation,no,Elena Vronskaya,Odesa,Senior,Retainer,Lisa,168,168,16.071428571428573,2700,,,,,N/A
+43951.0,Catena Media company website (maintenance project),Catena Operations Ltd,no,Maxim Kardanets,Odesa,Senior,T&M,IV,44,44,30,1320,,,,,Semyon
+43951.0,Skyresponse website (design),Skyresponse AB,yes,Anastasia Onyskiv,Odesa,Designer,T&M,AP,12,12,30,360,,,,,N/A
+43951.0,RLJ Lodging Trust,"Financial Communications, Inc.",no,Alena Mnushka,Poltava,Junior,FP,IV,58,,30,1740,,,,,N/A
+43951.0,RLJ Lodging Trust(additional tasks),"Financial Communications, Inc.",no,Alena Mnushka,Poltava,Junior,FP,IV,12,12,30,360,,,,,N/A
+43951.0,Artely - Market - T&M tasks,Artely AB,no,Elena Vronskaya,Odesa,Senior,FP,IV,12,12,30,360,,,,,N/A
+43951.0,OURWAY Tours site,OURWAY Tours AB,no,Aleksander Martynenko,Odesa,Junior,FP,AR,,,,1560,,,,,N/A
+43922.0,Middle Retainer (N.Lobach),Briteweb Inc.,no,Nikita Lobach,Odesa,Middle,Retainer,AR,168,168,20.83,3500,,,,,Semyon
+43922.0,Middle Retainer (V.Filonenko),Briteweb Inc.,no,Vladislav Filonenko,Poltava,Middle,Retainer,AR,168,168,20.83,3500,,,,,Semyon
+43922.0,Middle Retainer (D.Kubrakov),Briteweb Inc.,no,Denys Kubrakov,Poltava,Middle,Retainer,AR,168,168,20.83,3500,,,,,Semyon
+43951.0,On the Road design,Dumont bvba,yes,Anastasia Onyskiv,Odesa,Designer,T&M,AP,6,6,30,180,,,,,Viktoria
+43951.0,Oomph WP Maintenance ,"Oomph, Inc.",yes,Alena Mnushka,Poltava,,T&M,AP,28,28,30,840,,,,,Nikita
+43951.0,6666 Ranch - Side-Menu,Speedsquare,yes,Denis Papyrnik,Poltava,Middle,FP,AP,18,18,30,540,,,,,Ross
+43951.0,Lawline Agreement Form (April),Aducera Holding AB,no,Galina Zaporozhchenko,Odesa,Middle,T&M,AR,166,166,30,4980,,,,,N/A
+43951.0,Credito Rapido (50% prepayment),ALTS Digital Unipessoal LDA,no,Andrey Vovk,Odesa,Junior,FP,IV,48,48,30,1440,,,,,Semyon
+43951.0,Transifex,Transifex US,no,George Sklavo,Odesa,Graduate,T&M,IV,28,28,30,840,,,,,Semyon
+43951.0,Sportscalendar (Sync to Calendar feature) - Design,Agonas AB,no,Anastasia Onyskiv,Odesa,Senior,T&M,IV,9,9,30,270,,,,,Arvid
+43951.0,Sportscalendar (Sync to Calendar feature),Agonas AB,no,Oleg Draganchuk,Ivano,Senior,FP,IV,65,65,30,1950,,,,,Arvid
+43951.0,Discount Hawaii Redesign ,Skyrocket Digital,no,Eduard Shepel,Poltava,,FP,IV,57,,30,1710,,,,,Semyon
+43951.0,Discount Hawaii Redesign(addtional tasks),Skyrocket Digital,no,Eduard Shepel,Poltava,Middle,FP,IV,24.75,24.75,30,742.5,,,,,Semyon
+43951.0,Beetroot FT developer,Beetroot,no,Irina Beskorovaina,Poltava,Junior,Retainer,Lisa,168,168,9.029761904761905,1517,,,,,N/A
+43951.0,Beetroot site QA,Beetroot,no,Olga Azarova,Odesa,Junior,T&M,Lisa,4,4,15,60,,,,,N/A
+43951.0,BA Site support,Beetroot,no,Denis Papyrnik,Poltava,Middle,T&M,Lisa,12,12,15,180,,,,,N/A
+43951.0,Beetroot site new templates help,Beetroot,no,Aleksander Martynenko,Odesa,Junior,T&M,Lisa,23,23,15,345,,,,,N/A
+43951.0,Beetroot Hub ,Beetroot ,no,Ihor Fedan,Kremen,Middle,T&M,AP,152,329,15,4935,,,,,N/A
+43891.0,Middle retainer (K. Fedoseeva),"Inverse Paradox, LLC",no,Kateryna Fedoseyeva,Odesa,Middle,Retainer,AR,152,152,17.86,2714,,,,,Semyon
+43891.0,Middle retainer (V. Bezbozshniy),"Inverse Paradox, LLC",no,Volodymyr Bezbozhnyi,Poltava,Middle,Retainer,AR,152,152,17.86,2714,,,,,Semyon
+43891.0,Junior retainer (Y.Luneva),"Inverse Paradox, LLC",no,Yuliia Lunova,Odesa,Junior,Retainer,AR,168,168,11.9,2000,,,,,Semyon
+43891.0,Middle Retainer ,Memira Holding AB,no,Sergey Semenyuk,Odesa,Middle,Retainer,IT,168,168,18,3118,,,,,Arvid
+43891.0,Middle Retainer (Olena Anhelchuk),Defakto,no,Olena Anhelchuk,Poltava,Middle,Retainer,IT,168,168,18,3024,,,,,Semyon
+43891.0,Junior Retainer (Alexander Horbanov),Defakto,no,Alexander Gorbanev,Odesa,Junior,Retainer,IT,160,160,12,1920,,,,,Semyon
+43907.0,100 Women UNC Kenan Flagler (50% prepayment),Darkroom Studios LLC,yes,Yuliia Lunova,Odesa,Junior,FP,IT,89,89,30,2670,,,,,Semyon
+43891.0,McKittrick Hotel Maintenance,Darkroom Studios LLC,yes,Vladislav Yevsikov,Odesa,Middle,T&M,IT,4,4,30,120,,,,,Semyon
+43891.0,Catlin & Cookman (additional tasks),One Tree Marketing,no,Vlad Kushnir,Odesa,Junior,FP,IT,8,8,30,240,,,,,N/A
+43899.0,Middle Retainer (O.Krekoten),8 Digital AB,no,Olexii Krekoten,Poltava,Middle,Retainer,AR,168,168,19.64,3300,,,,,N/A
+43910.0,Login Functionlity Update on Detra.se,BIGR Reklambyrå AB,no,Oleg Kozyk,Poltava,Junior,T&M,AR,16,11,30,480,,,,,N/A
+43916.0,Anthony Romeo MD,"Ceatus Media Group, LLC",no,Alex Kolotukhina,Poltava,Junior,FP,IT,84,111,30,2520,,,,,N/A
+43916.0,The Aesthetic Wellness Center,"Ceatus Media Group, LLC",no,Daria Klymenko,Poltava,Junior,FP,IT,72,210,30,2160,,,,,N/A
+43908.0,Casino Blockchain (50% prepayment),ALTS Digital Unipessoal LDA,yes,Andrey Vovk,Odesa,Junior,FP,IT,66,66,30,1980,,,,,Semyon
+43921.0,Cobalt Robotics ROI Calculator + maintenance,Xaicode,yes,Yuri Nifontov,Odesa,Senior,T&M,AP,31.5,31.5,30,945,,,,,Ross
+43921.0,Discount Hawaii (March) - additional tasks,Skyrocket Digital,no,Eduard Shepel,Poltava,Middle,FP,IT,23,23,30,690,,,,,Semyon
+43921.0,WISC,"Colour Outside, LLC",no,Eduard Shepel,Poltava,Middle,FP,IT,6,6,30,180,,,,,N/A
+43921.0,Scintilla Markets Tool (additional tasks),Philipp Hoegerle,no,Olexandr Piven,Poltava,Middle,FP,IT,38,38,30,1140,,,,,Nikita
+43921.0,Blue Square (March),Diffusion Digital,no,Denis Papyrnik,Poltava,Middle,FP,IT,24.5,24.5,30,735,,,,,N/A
+43921.0,Slater (March),Diffusion Digital,no,Denis Papyrnik,Poltava,Middle,FP,IT,10,10,30,300,,,,,N/A
+43921.0,Slater (reduced rate),Diffusion Digital,no,Denis Papyrnik,Poltava,Middle,FP,IT,6,6,25,150,,,,,N/A
+43921.0,Artely - Market - T&M tasks,Artely AB,no,Elena Vronskaya,Odesa,Senior,T&M,IT,20,20,30,600,,,,,N/A
+43921.0,Heroes Linked,Military & Veterans Appreciation Trust Foundation,no,Elena Vronskaya,Odesa,Senior,Retainer,Lisa,168,168,16.071428571428573,2700,,,,,N/A
+43921.0,Raketech Retainer (S.Mazur),Raketech Group Ltd,no,Serhii Mazur,Odesa,Junior,Retainer,Lisa,168,168,12,2000,,,,,Arvid
+43921.0,Raketech Retainer (A.Tkach),Raketech Group Ltd,no,Andrii Tkach,Odesa,Junior,Retainer,Lisa,168,168,12,2000,,,,,Arvid
+43921.0,Raketech Retainer (V.Khomovyi),Raketech Group Ltd,no,Volodymyr Khomovyi,Ivano,Junior,Retainer,Lisa,168,168,12,2000,,,,,Arvid
+43921.0,Raketech Retainer (O.Zharovskyi),Raketech Group Ltd,no,Oleh Zharovskyi,Ivano,Junior,Retainer,Lisa,160,160,12,1908,,,,,Arvid
+43921.0,Raketech Retainer (A.Shliakhova),Raketech Group Ltd,no,Anna Shliakhova,Odesa,Graduate,Retainer,Lisa,168,168,12,2000,,,,,Arvid
+43921.0,Raketech Retainer (V.Nikolenko),Raketech Group Ltd,no,Volodymyr Nikolenko,Odesa,Graduate,Retainer,Lisa,168,168,12,2000,,,,,Arvid
+43921.0,Prokit,Prokit LLC,no,Ekaterina Demianchuk,Odesa,Senior,Retainer,Lisa,88,88,30,2640,,,,,Arvid
+43921.0,WA Specialised Transport,PWD (Australia),yes,Oleksandr Leshchenko,Poltava,Junior,FP,AP,42,42,30,1260,,,,,Viktoria
+43918.0,Senior retainer (Chekulaev),Emazing-Retailing-Europe,no,Dmitriy Chekulaiev,Poltava,Senior,Retainer,AR,168,168,17.86,3000,,,,,Semyon
+43912.0,Junior retainer (S.Sinelnikova),"Brain Bytes Creative, LLC",no,Svetlana Sinelnikova,Odesa,Junior,Retainer,AR,168,168,14.88,2500,,,,,Semyon
+43918.0,Junior Retainer (A.Veklenko),Studio Bovenkamer,no,Anastasiia Veklenko,Poltava,Junior,Retainer,AR,160,160,11.9,1905,,,,,Semyon
+43891.0,Senior Retainer (A.Klimenko),Lahav Media W&W Marketing,no,Anastasia Klimenko,Odesa,Senior,Retainer,AR,168,168,17.86,3000,,,,,Semyon
+43891.0,Middle Retainer (N.Lobach),Briteweb Inc.,no,Nikita Lobach,Odesa,Middle,Retainer,AR,168,168,20.83,3500,,,,,Semyon
+43891.0,Middle Retainer (V.Filonenko),Briteweb Inc.,no,Vladislav Filonenko,Poltava,Middle,Retainer,AR,168,168,20.83,3500,,,,,Semyon
+43891.0,Middle Retainer (D.Kubrakov),Briteweb Inc.,no,Denys Kubrakov,Poltava,Middle,Retainer,AR,144,144,20.83,3000,,,,,Semyon
+43921.0,OURWAY Tours site,OURWAY Tours AB,no,Aleksander Martynenko,Odesa,Junior,FP,AR,,,30,1560,,,,,N/A
+43921.0,Lawline Agreement Form (March),Aducera Holding AB,no,Galina Zaporozhchenko,Odesa,Middle,T&M,IT,164,164,30,4920,,,,,N/A
+43921.0,Qleano project build,Cleaning Services & Estate i Sverige AB,no,Oleg Kozyk,Poltava,Junior,FP,AR,112,,30,3360,,,,,N/A
+43921.0,Content Migration (Qleano project),Cleaning Services & Estate i Sverige AB,no,Oleg Kozyk,Poltava,Junior,T&M,AR,50,50,30,1500,,,,,N/A
+43921.0,Podio Integration (Qleano project),Cleaning Services & Estate i Sverige AB,no,Oleg Kozyk,Poltava,Junior,T&M,AR,28,28,30,840,,,,,N/A
+43921.0,Additional tasks (Qleano project),Cleaning Services & Estate i Sverige AB,no,Oleg Kozyk,Poltava,Junior,T&M,AR,17,17,30,510,,,,,N/A
+43921.0,Catena Media company website (maintenance project),Catena Operations Ltd,no,Maxim Kardanets,Odesa,Senior,T&M,IT,26,26,30,780,,,,,Semyon
+43921.0,Furhat Robotics website,Furhat Robotics AB,yes,Maxim Mudriak,Poltava,Junior,FP,AR,159,333,30,4770,,,,,Arvid
+43921.0,Additional tasks (Furhat Robotics website),Furhat Robotics AB,yes,Maxim Mudriak,Poltava,Junior,FP,AR,22,22,30,660,,,,,Arvid
+43921.0,Weekend overtime (Furhat Robotics website),Furhat Robotics AB,yes,Maxim Mudriak,Poltava,Junior,T&M,AR,30,30,30,900,,,,,Arvid
+43921.0,UBN site - About Us page tweaks,"LLC ""UBN Group""",no,Oleg Kozyk,Poltava,Junior,T&M,AR,3,3,30,90,,,,,N/A
+43921.0,Beetroot FT developer,Beetroot,no,Irina Beskorovaina,Poltava,Junior,Retainer,Lisa,168,168,9,1517,,,,,N/A
+43921.0,Beetroot site QA,Beetroot,no,Olga Azarova,Odesa,Junior,T&M,Lisa,4,4,15,60,,,,,N/A
+43862.0,Middle retainer (K. Fedoseeva),"Inverse Paradox, LLC",no,Kateryna Fedoseyeva,Odesa,Middle,Retainer,AR,168,168,17.86,3000,,,,,Semyon
+43862.0,Middle retainer (V. Bezbozshniy),"Inverse Paradox, LLC",no,Volodymyr Bezbozhnyi,Poltava,Middle,Retainer,AR,168,168,17.86,3000,,,,,Semyon
+43862.0,Junior retainer (Y.Luneva),"Inverse Paradox, LLC",no,Yuliia Lunova,Odesa,Junior,Retainer,AR,128,128,11.9,1524,,,,,Semyon
+43870.0,Middle Retainer (O.Krekoten),8 Digital AB,no,Olexii Krekoten,Poltava,Middle,Retainer,AR,144,144,19.64,2829,,,,,N/A
+43881.0,PHP Upgrade (brfnebulosan19.se),Brf Nebulosan 19,yes,Yuliia Lunova,Odesa,Junior,FP,AP,7,7,30,210,,,,,Arvid
+43862.0,Middle Retainer ,Memira Holding AB,no,Sergey Semenyuk,Odesa,Middle,Retainer,IT,168,168,18,3149,,,,,Arvid
+43862.0,Middle Retainer (Olena Anhelchuk),Defakto,no,Olena Anhelchuk,Poltava,Middle,Retainer,IT,168,168,18,3024,,,,,Semyon
+43862.0,Junior Retainer (Alexander Horbanov),Defakto,no,Alexander Gorbanev,Odesa,Junior,Retainer,IT,176,176,12,2112,,,,,Semyon
+43888.0,WISC,"Colour Outside, LLC",no,Maxim Mudriak,Poltava,Junior,FP,IT,101,,30,3030,,,,,Oksana
+43888.0,Annotell company website,Annotell AB,yes,Olexandr Piven,Poltava,Junior,FP,IT,71,,30,2130,,,,,Arvid
+43888.0,Artely - Market - T&M tasks,Artely AB,no,Elena Vronskaya,Odesa,Senior,T&M,IT,20,,30,600,,,,,N/A
+43889.0,Senior retainer (D.Chekulaev),Emazing-Retailing-Europe,no,Dmitriy Chekulaiev,Poltava,Senior,Retainer,AR,168,168,17.86,3000,,,,,Semyon
+43883.0,Junior Retainer (S.Sinelnikova),"Brain Bytes Creative, LLC",no,Svetlana Sinelnikova,Odesa,Junior,Retainer,AR,168,168,14.88,2500,,,,,Semyon
+43889.0,Junior Retaner (A.Veklenko),Studio Bovenkamer,no,Anastasiia Veklenko,Poltava,Junior,Retainer,AR,168,168,11.9,2000,,,,,Semyon
+43862.0,Senior Retainer (A.klimenko),Lahav Media W&W Marketing,no,Anastasia Klimenko,Odesa,Senior,Retainer,AR,160,160,17.85,2857,,,,,Semyon
+43889.0,Raketech Retainer (S.Mazur),Raketech Group Ltd,no,Serhii Mazur,Odesa,Junior,Retainer,Lisa,152,152,12,1810,,,,,Arvid
+43889.0,Raketech Retainer (A.Tkach),Raketech Group Ltd,no,Andrii Tkach,Odesa,Junior,Retainer,Lisa,168,168,12,2000,,,,,Arvid
+43889.0,Raketech Retainer (V.Khomovyi),Raketech Group Ltd,no,Volodymyr Khomovyi,Ivano,Junior,Retainer,Lisa,168,168,12,2000,,,,,Arvid
+43889.0,Raketech Retainer (O.Zharovskyi),Raketech Group Ltd,no,Oleh Zharovskyi,Ivano,Junior,Retainer,Lisa,168,168,12,2000,,,,,Arvid
+43889.0,Heroes Linked retainer,Military & Veterans Appreciation Trust Foundation,no,Elena Vronskaya,Odesa,Senior,Retainer,Lisa,144,144,16.069444444444443,2314,,,,,N/A
+43889.0,Metapic plugin support,Tradedoubler AB,no,Elena Vronskaya,Odesa,Senior,T&M,Lisa,6,6,30,180,,,,,Arvid
+43889.0,Kenny Stevens updates,Studio Misfits Inc.,no,Anastasia Klimenko,Odesa,Senior,FP,Lisa,4,1,30,120,,,,,N/A
+43862.0,Middle Retainer (Nikita Lobach),Briteweb Inc.,no,Nikita Lobach,Odesa,Middle,Retainer,AR,168,168,20.83,3500,,,,,Semyon
+43862.0,Middle Retainer (Den Kubrakov),Briteweb Inc.,no,Denys Kubrakov,Poltava,Middle,Retainer,AR,136,136,20.83,2833,,,,,Semyon
+43862.0,Middle Retainer (V. Filonenko),Briteweb Inc.,no,Vladislav Filonenko,Poltava,Middle,Retainer,AR,112,112,20.83,2333,,,,,Semyon
+43889.0,Noquo Foods - additional,Sara Norrbom Design,no,Oleksandr Leshchenko,Poltava,Junior,FP,AR,3,5,30,90,,,,,N/A
+43889.0,"ARC (Switch to Gravity Forms, Plugin/WP updates)",Mach Media,no,Oleksandr Leshchenko,Poltava,Junior,FP,AR,20,29,30,600,,,,,N/A
+43889.0,SiteWorks - Design,SiteWorks Oy,no,Anastasia Onyskiv,Odesa,Designer,T&M,AR,15,13,30,450,,,,,N/A
+43889.0,OURWAY Tours - 50%prepayment,OURWAY Tours AB,no,Aleksander Martynenko,Odesa,Junior,FP,AR,,,,3383,,,,,N/A
+43889.0,UBN - additional work ,"LLC ""UBN Group""",no,Oleksandr Leshchenko,Odesa,Junior,T&M,AR,16,12,30,480,,,,,N/A
+43890.0,Prokit,Prokit LLC,no,Ekaterina Demianchuk,Odesa,Senior,T&M,Lisa,85,85,30,2550,,,,,Arvid
+43890.0,Rickid header update,Rickid webdesign,yes,Vlad Kushnir,Odesa,Junior,T&M,IT,18,18,30,540,,,,,Nikita
+43890.0,Blue Square,Diffusion Digital,no,Denis Papyrnik,Poltava,Middle,FP,IT,19,108,30,570,,,,,N/A
+43890.0,Slater Investments,Diffusion Digital,no,Denis Papyrnik,Poltava,Middle,FP,IT,11,15,30,330,,,,,N/A
+43890.0,Discount Hawaii (additional tasks),Skyrocket Digital,no,Eduard Shepel,Poltava,Middle,FP,IT,10,,30,300,,,,,Semyon
+43890.0,Lawline Agreement Form,Aducera Holding AB,no,Galina Zaporozhchenko,Odesa,Middle,T&M,IT,149,149,30,4470,,,,,N/A
+43890.0,Scintilla Markets Tool (additional tasks),Philipp Hoegerle,no,Olexandr Piven,Poltava,Middle,FP,IT,7,,30,210,,,,,Nikita
+43890.0,StepChange Consulting (Design),StepChange Consulting GmbH,yes,Anastasia Onyskiv,Odesa,Designer,T&M,IT,18,18,30,540,,,,,Nikita
+43890.0,Great.com (design),Aveny Ltd,no,Anastasia Onyskiv,Odesa,Designer,T&M,IT,15,15,30,450,,,,,N/A
+43889.0,Beetroot FT developer,Beetroot,no,Irina Beskorovaina,Poltava,Junior,Retainer,Lisa,168,168,9,1512,,,,,N/A
+43889.0,BA support,Beetroot,no,Oleksandr Leshchenko,Poltava,Junior,T&M,Lisa,9,9,15,135,,,,,N/A
+43889.0,Beetroot QA,Beetroot,no,,Odesa,,T&M,Lisa,8,8,15,120,,,,,
+43831.0,Metapic plugin support,Tradedoubler AB,no,Elena Vronskaya,Odesa,Senior,T&M,Lisa,5,5,30,150,,,,,Arvid
+43831.0,Middle Retainer ,Memira Holding AB,no,Sergey Semenyuk,Odesa,Middle,Retainer,IT,160,160,18,2880,,,,,Arvid
+43831.0,Middle Retainer (Olena Anhelchuk),Defakto,no,Olena Anhelchuk,Poltava,Middle,Retainer,IT,168,168,18,3024,,,,,Semyon
+43831.0,Junior Retainer (Alexander Horbanov),Defakto,no,Alexander Gorbanev,Odesa,Junior,Retainer,IT,104,104,12,1248,,,,,Semyon
+43847.0,Eppley Plastic Surgery,"Ceatus Media Group, LLC",no,Daria Klymenko,Poltava,Junior,FP,IT,90,90,30,2700,,,,,N/A
+43853.0,Sportscalendar (final prepayment),Agonas AB,no,Oleg Draganchuk,Ivano,Junior,FP,IT,90,90,30,2700,,,,,Arvid
+43852.0,Junior Retainer (S.Sinelnikova),"Brain Bytes Creative, LLC",yes,Svetlana Sinelnikova,Odesa,Junior,Retainer,AR,168,168,14.88,2500,,,,,Semyon
+43839.0,Middle Retainer (O. Krekothen),8 Digital AB,no,Olexii Krekoten,Poltava,Middle,Retainer,AR,136,136,19.64,2671,,,,,N/A
+43851.0,Junior Retainer,LAT Media,no,Andrey Vovk,Odesa,Junior,Retainer,AR,168,168,14.88,2500,,,,,Arvid
+43831.0,Middle Retainer,Lahav Media W&W Marketing,no,Anastasia Klimenko,Odesa,Senior,Retainer,AR,168,168,17.85,3000,,,,,Semyon
+43831.0,Junior Retainer (Y.Luneva),"Inverse Paradox, LLC",no,Yuliia Lunova,Odesa,Junior,Retainer,AR,160,160,11.9,1904,,,,,Semyon
+43831.0,Middle Retainer (K.Fedoseeva),"Inverse Paradox, LLC",no,Kateryna Fedoseyeva,Odesa,Middle,Retainer,AR,152,152,17.86,2714,,,,,Semyon
+43831.0,Middle Retainer (V. Bezboszhniy),"Inverse Paradox, LLC",no,Volodymyr Bezbozhnyi,Poltava,Middle,Retainer,AR,144,144,17.86,2571,,,,,Semyon
+43831.0,Junior Retainer (O.Kolotukhina),"Inverse Paradox, LLC",no,Alex Kolotukhina,Poltava,Junior,Retainer,AR,48,48,11.9,571,,,,,Semyon
+43859.0,It Never Hurts to Smile,"Ceatus Media Group, LLC",no,Alex Kolotukhina,Poltava,Junior,FP,IT,36,,30,1080,,,,,N/A
+43859.0,Play and Sustain,Catena Operations Ltd,no,Vlad Kushnir,Odesa,Junior,FP,IT,58,,30,1740,,,,,Semyon
+43845.0,Play and Sustain (design),Catena Operations Ltd,no,Anastasia Onyskiv,Odesa,Middle,T&M,IT,1,,30,30,,,,,Semyon
+43858.0,OURWAY Tours website - 25% prepayment,OURWAY Tours AB,yes,Aleksander Martynenko,Odesa,Junior,FP,AR,113,,30,3383,,,,,N/A
+43858.0,Senior retainer (D.Chekulaev),Emazing-Retailing-Europe,no,Dmitriy Chekulaiev,Poltava,Senior,Retainer,AR,168,168,17.86,3000,,,,,Semyon
+43858.0,Junior Retainer (A.Veklenko),Studio Bovenkamer,no,Anastasiia Veklenko,Poltava,Junior,Retainer,AR,152,152,11.9,1810,,,,,Semyon
+43831.0,Middle Retainer (Nikita Lobach),Briteweb Inc.,no,Nikita Lobach,Odesa,Middle,Retainer,AR,168,168,20.83,3500,,,,,Semyon
+43831.0,Middle Retainer (V.Filonenko),Briteweb Inc.,no,Vladislav Filonenko,Poltava,Middle,Retainer,AR,168,168,20.83,3500,,,,,Semyon
+43831.0,Middle Retainer (D.Kubrakov),Briteweb Inc.,no,Denys Kubrakov,Poltava,Middle,Retainer,AR,152,152,20.83,3167,,,,,Semyon
+43859.0,T&M (FIC project deployment),Briteweb Inc.,no,Maxim Kardanets,Odesa,Senior,T&M,AR,4,4,30,120,,,,,Semyon
+43860.0,Raketech Retainer (S.Mazur),Raketech Group Ltd,no,Serhii Mazur,Odesa,Junior,Retainer,Lisa,168,168,12,2000,,,,,Arvid
+43860.0,Raketech Retainer (A.Tkach),Raketech Group Ltd,no,Andrii Tkach,Odesa,Graduate,Retainer,Lisa,152,152,12,1719,,,,,Arvid
+43860.0,Raketech Retainer (V.Khomovyi),Raketech Group Ltd,no,Volodymyr Khomovyi,Ivano,Graduate,Retainer,Lisa,168,168,12,2000,,,,,Arvid
+43860.0,Raketech Retainer (O.Zharovskyi),Raketech Group Ltd,no,Oleh Zharovskyi,Ivano,Graduate,Retainer,Lisa,168,168,12,2000,,,,,Arvid
+43860.0,Heroes Linked retainer,Military & Veterans Appreciation Trust Foundation,no,Elena Vronskaya,Odesa,Senior,Retainer,Lisa,168,168,16.071428571428573,2700,,,,,N/A
+43860.0,Senior Retainer (Max Kardanets),vCita Ltd,no,Maxim Kardanets,Odesa,Senior,Retainer,IT,120,120,26.79,3214.7999999999997,,,,,Semyon
+43861.0,Lawline Agreement Form,Aducera Holding AB,no,Galina Zaporozhchenko,Odesa,Middle,T&M,IT,165,165,30,4950,,,,,N/A
+43861.0,Prokit,Prokit LLC,no,Denis Papyrnik,Poltava,Middle,T&M,Lisa,64,130,30,1900,,,,,Arvid
+43861.0,Fearless Faith,"Colour Outside, LLC",yes,Alena Mnushka,Poltava,Junior,T&M,IT,67,67,30,2010,,,,,Oksana
+43861.0,Discount Hawaii (final payment)        ,Skyrocket Digital,yes,Eduard Shepel,Poltava,Junior,FP,IT,87,87,30,2610,,,,,Semyon
+43861.0,Discount Hawaii (overtime hours),Skyrocket Digital,yes,Eduard Shepel,Poltava,Junior,T&M,IT,24,24,30,720,,,,,Semyon
+43861.0,Discount Hawaii (additional functionality),Skyrocket Digital,yes,Eduard Shepel,Poltava,Junior,FP,IT,21,21,30,630,,,,,Semyon
+43861.0,Blue Square (additional tasks),Diffusion Digital,no,Dmytro Olkhovskiy,Poltava,Senior,FP,IT,14,14,30,420,,,,,N/A
+43861.0,Slater Investments (additional tasks),Diffusion Digital,no,Dmytro Olkhovskiy,Poltava,Senior,FP,IT,10,10,30,300,,,,,N/A
+43861.0,Great.com (design),Aveny Ltd,yes,Anastasia Onyskiv,Odesa,Middle,T&M,IT,8,8,30,240,,,,,N/A
+43861.0,German Website Build,"Margo Horticultural Supplies, LTD",no,Elena Vronskaya,Odesa,Middle,T&M,AR,5,5,30,150,,,,,Semyon
+43861.0,Metapic plugin support,Tradedoubler AB,no,Elena Vronskaya,Odesa,Senior,T&M,Lisa,9,9,30,270,,,,,Arvid
+43861.0,Beetroot FT developer,Beetroot,no,Irina Beskorovaina,Poltava,Junior,Retainer,Lisa,168,168,9,1512,,,,,N/A
+43861.0,Beetroot Website QA,Beetroot,no,,Odesa,Junior,T&M,Lisa,2,2,15,30,,,,,N/A
+43861.0,BA HR test email update,Beetroot,no,,Poltava,Junior,FP,Lisa,8,8,15,120,,,,,N/A
+43861.0,BA support and maitenance,Beetroot,no,Dmytro Olkhovskiy,Poltava,Senior,T&M,Lisa,6,6,15,90,,,,,N/A

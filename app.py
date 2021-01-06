@@ -54,7 +54,7 @@ df['AM'] = df['AM'].astype(str).str.replace('IT', 'IV', regex=False)
 
 external_stylesheets = ['https://codepen.io/lisa-nalyvaiko/pen/GRjdwrL.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-
+server = app.server
 indicators_list = ['Client', 'Main Developer', 'Location', 'Seniority', 'Type', 'AM', 'Sales person']
 
 app.layout = html.Div(children=[

@@ -25,3 +25,4 @@ jupyter-core==4.5.0
 numpy==1.16.4
 pandas==1.1.5
 sheetfu==1.5.4
+dotenv==0.15.0

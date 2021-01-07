@@ -69,11 +69,19 @@ fig_clients = px.bar(
                     labels={'x':'Client', 'y':'Revenue'},
                     color_discrete_sequence=["#a51140", "#a51140"])
 
+clients_by_type = df.groupby(['Client','Type'],as_index=False) \
+    .agg({'Total price':'sum'})
+clients_by_type = clients_by_type.replace({'T&M':'Project','FP':'Project'}) \
+                                .groupby(['Client','Type'],as_index=False) \
+                                .agg({'Total price':'sum'}) \
+                                .sort_values(by='Total price',ascending=False)
+
 #plotly dash app
 #external_stylesheets = ['https://codepen.io/lisa-nalyvaiko/pen/GRjdwrL.css']
 app = dash.Dash(__name__)
 server = app.server
 indicators_list = ['Client', 'Main Developer', 'Location', 'Seniority', 'Type', 'AM', 'Sales person']
+clients_types = ['Total','Project','Retainer']
 
 app.layout = html.Div(children=[
     html.H1(children='PU Revenue 2020'),
@@ -100,10 +108,16 @@ app.layout = html.Div(children=[
 
     html.H3(children='Top 10 clients by revenue'),
 
-    dcc.Graph(
-        id='top_clients_graph',
-        figure=fig_clients)
+    html.Div([
+        dcc.Dropdown(
+            id='client-type',
+            options=[{'label': i, 'value': i} for i in clients_types],
+            value=clients_types[0]
+        )]),
 
+    dcc.Graph(
+        id='top-clients_graph'
+    )
 ])
 
 
@@ -120,6 +134,26 @@ def update_revenue_graph(xaxis_column_name):
         labels={'x': 'indicator', 'y': 'revenue, $'},
         color_discrete_sequence=["#a51140", "#a51140"])
     return figure
+
+@app.callback(
+    Output('top-clients_graph', 'figure'),
+    Input('client-type', 'value'))
+def update_revenue_by_clients_graph(client_type):
+    data = clients_by_type
+    if client_type == "Total":
+        return fig_clients
+    d = data[data["Type"]==client_type].groupby('Client',as_index=False)\
+                                        .agg({'Total price':'sum'})\
+                                        .sort_values(by='Total price',ascending=False)\
+                                        .head(10)
+    figure = px.bar(
+            d,
+            x=d['Client'],
+            y=d['Total price'],
+            labels={'x': 'Client', 'y': 'Revenue'},
+            color_discrete_sequence=["#a51140", "#a51140"])
+    return figure
+
 
 
 if __name__ == '__main__':

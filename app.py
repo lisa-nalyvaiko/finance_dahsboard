@@ -54,6 +54,7 @@ import plotly.express as px
 # df['AM'] = df['AM'].astype(str).str.replace('IT', 'IV', regex=False)
 
 df = pd.read_csv('./revenue.csv')
+df = df.replace({'IT':'IV'})
 total_revenue = '{0:,}'.format(int(round(df['Total price'].sum(),0)))
 
 #Clients stats and visualisation

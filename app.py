@@ -54,12 +54,12 @@ import plotly.express as px
 # df['Profit, %'] = df['Profit, %'].astype(float).round(2) * 100
 # df['AM'] = df['AM'].astype(str).str.replace('IT', 'IV', regex=False)
 
-df = pd.read_csv('./revenue.csv')
-df = df.replace({'IT':'IV'})
-total_revenue = '{0:,}'.format(int(round(df['Total price'].sum(),0)))
+revenue = pd.read_csv('./revenue.csv')
+revenue = revenue.replace({'IT':'IV'})
+total_revenue = '{0:,}'.format(int(round(revenue['Total price'].sum(),0)))
 
 #Clients stats and visualisation
-clients_by_revenue = df.groupby('Client',as_index=False) \
+clients_by_revenue = revenue.groupby('Client',as_index=False) \
     .agg({'Total price':'sum'}) \
     .sort_values(by='Total price',ascending=False)
 clients_by_revenue['Total price'] = clients_by_revenue['Total price'].astype(int)
@@ -70,7 +70,7 @@ fig_clients = px.bar(
                     labels={'x':'Client', 'y':'Revenue'},
                     color_discrete_sequence=["#a51140", "#a51140"])
 
-clients_by_type = df.groupby(['Client','Type'],as_index=False) \
+clients_by_type = revenue.groupby(['Client','Type'],as_index=False) \
     .agg({'Total price':'sum'})
 clients_by_type = clients_by_type.replace({'T&M':'Project','FP':'Project'}) \
                                 .groupby(['Client','Type'],as_index=False) \
@@ -80,6 +80,9 @@ clients_by_type = clients_by_type.replace({'T&M':'Project','FP':'Project'}) \
 #reading csv files with team data
 pu_data_2019 = pd.read_csv('~/pu_data_2019.csv')
 pu_data_2020 = pd.read_csv('~/pu_data_2020.csv')
+pu_data_2020['revenue_per_person'] = pu_data_2020.turnover / pu_data_2020.dev_team
+pu_data_2019['revenue_per_person'] = pu_data_2019.turnover / pu_data_2019.dev_team
+pu_data_2020['avg_h_cost'] = pu_data_2020.total_hours / pu_data_2020.total_costs_total_oh
 
 #key metrics for report
 revenue_2020 = round(pu_data_2020.turnover.sum())
@@ -100,7 +103,7 @@ team_growth_2020 = round((team_size_2020 - team_size_2019)/team_size_2019 * 100)
 
 revenue_growth_2020 = round((revenue_2020-revenue_2019)/revenue_2019 * 100)
 revenue_per_dev_2020 = round(pu_data_2020.revenue_per_person.median())
-revenue_per_dev_2019 = round(pu_data_2020.revenue_per_person.median())
+revenue_per_dev_2019 = round(pu_data_2019.revenue_per_person.median())
 
 median_h_cost_2020 = round(pu_data_2020['avg_h_cost'].median(),2)
 median_h_rate_2020 = round(revenue['Total price'].sum() / revenue['Hours sold'].sum(),2)
@@ -115,7 +118,7 @@ client_number_2020 = revenue['Client'].nunique()
 
 #plotly dash app
 #external_stylesheets = ['https://codepen.io/lisa-nalyvaiko/pen/GRjdwrL.css']
-app = dash.Dash(__name__)
+app = dash.Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 indicators_list = ['Client', 'Main Developer', 'Location', 'Seniority', 'Type', 'AM', 'Sales person']
 clients_types = ['Total','Project','Retainer']
@@ -163,7 +166,7 @@ app.layout = html.Div(children=[
     Input('xaxis-column', 'value'))
 def update_revenue_graph(xaxis_column_name):
     print(xaxis_column_name)
-    grouped_df = df.groupby(xaxis_column_name, as_index=False).agg({'Total price': 'sum'})
+    grouped_df = revenue.groupby(xaxis_column_name, as_index=False).agg({'Total price': 'sum'})
     figure = px.bar(
         grouped_df,
         x=grouped_df.iloc[:, 0],

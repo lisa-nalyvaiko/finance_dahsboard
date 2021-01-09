@@ -6,55 +6,9 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
 import plotly.express as px
+import plotly.graph_objects as go
 
-#
-# path_to_credential = './google_credentials.json'
-# #sa = SpreadsheetApp(from_env=True)
-# #google sheets auth & pulling data from the spreadsheet
-# table_name = 'Invoicing Statistics 2020'
-# spr_id = '1gRd73DKLWuVGOUoOu9sv7iiym_JyDovVjOu7bT1aZO8'
-# spreadsheet = SpreadsheetApp(path_to_credential).open_by_id(spr_id)
-# needed_sheets = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',
-#                  'November', 'December']
-# month_sheets = [
-#     sheet for sheet in spreadsheet.sheets
-#     if sheet.name in needed_sheets
-# ]
-# data = []
-# for month_sheet in month_sheets:
-#     data_range = month_sheet.get_data_range()
-#     values = data_range.get_values()
-#     for row in values:
-#         data.append(row)
-# headers = data.pop(1)
-#
-# # Create df
-# df = pd.DataFrame(data, columns=headers)
-# #cleaning data
-# df = df.drop(columns=['Comments', '', '',
-#                       'What stats?', 'Value', '', '', '', '', '', ''])
-# df = df.drop(0)
-# nan_value = float("NaN")
-# df = df.replace("", nan_value)
-# df.dropna(subset=["Project Name"], inplace=True)
-# df = df[~df["Client"].str.contains('Client')]
-#
-# #changing data types
-# df['Date confirmed'] = df['Date confirmed'].astype(float)
-# df['Date confirmed'] = pd.to_datetime(df['Date confirmed'], unit='d', origin='1899-12-30')
-# df['Hours sold'] = df['Hours sold'].astype(float)
-# df['Total time spent'] = df['Total time spent'].astype(str).str.replace(',', '.', regex=False)
-# df['Total time spent'] = df['Total time spent'].astype(float)
-# df['Rate'] = df['Rate'].astype(str).str.replace(',', '.', regex=False)
-# df['Rate'] = df['Rate'].astype(str).str.replace('$', '', regex=False)
-# df['Rate'] = df['Rate'].astype(float).round(2)
-# df['Total price'] = df['Total price'].astype(float)
-# df['Cost, h'] = df['Cost, h'].astype(float).round(2)
-# df['Cost, total'] = df['Cost, total'].astype(float).round(2)
-# df['Proft, $'] = df['Proft, $'].astype(float).round(2)
-# df['Profit, %'] = df['Profit, %'].astype(float).round(2) * 100
-# df['AM'] = df['AM'].astype(str).str.replace('IT', 'IV', regex=False)
-
+# reading csv with invoices data
 revenue = pd.read_csv('./revenue.csv')
 revenue = revenue.replace({'IT': 'IV'})
 total_revenue = '{0:,}'.format(int(round(revenue['Total price'].sum(), 0)))
@@ -79,8 +33,8 @@ clients_by_type = clients_by_type.replace({'T&M': 'Project', 'FP': 'Project'}) \
     .sort_values(by='Total price', ascending=False)
 
 # reading csv files with team data
-pu_data_2019 = pd.read_csv('~/pu_data_2019.csv')
-pu_data_2020 = pd.read_csv('~/pu_data_2020.csv')
+pu_data_2019 = pd.read_csv('./pu_data_2019.csv')
+pu_data_2020 = pd.read_csv('./pu_data_2020.csv')
 pu_data_2020['revenue_per_person'] = pu_data_2020.turnover / pu_data_2020.dev_team
 pu_data_2019['revenue_per_person'] = pu_data_2019.turnover / pu_data_2019.dev_team
 pu_data_2020['avg_h_cost'] = pu_data_2020.total_hours / pu_data_2020.total_costs_total_oh
@@ -116,8 +70,41 @@ unbilled_h_median_2020 = pu_data_2020.unbilled_hours.median()
 unbilled_h_max_2020 = pu_data_2020.unbilled_hours.max()
 unbilled_h_min_2020 = pu_data_2020.unbilled_hours.min()
 efficiency_hours_2020 = round(pu_data_2020.billed_hours.sum() / pu_data_2020.total_hours.sum() * 100)
+efficiency_revenue_2020 = round((revenue_2020 / pu_data_2020.total_invoiceable.sum()) * 100)
 
 client_number_2020 = revenue['Client'].nunique()
+
+# graph for time efficiency data
+time_efficiency_fig = go.Figure(go.Indicator(
+    domain={'x': [0, 1], 'y': [0, 1]},
+    value=efficiency_hours_2020,
+    mode="gauge+number",
+    title={'text': "Time efficiency, %"},
+    gauge={'axis': {'range': [None, 100]},
+           'bar': {'color': "#a51140"},
+           'steps': [
+               {'range': [0, 25], 'color': "#c2acbf"},
+               {'range': [25, 50], 'color': "#f5cdd9"},
+               {'range': [50, 75], 'color': "#e3aabc"},
+               {'range': [75, 100], 'color': "#f587a7"}],
+           }))
+# graph for turnover efficiency data
+revenue_efficiency_graph = go.Figure(go.Indicator(
+    domain={'x': [0, 1], 'y': [0, 1]},
+    value=efficiency_revenue_2020,
+    mode="gauge+number",
+    title={'text': "Revenue efficiency, %"},
+    gauge={'axis': {'range': [None, 100]},
+           'bar': {'color': "#a51140"},
+           'steps': [
+               {'range': [0, 25], 'color': "#c2acbf"},
+               {'range': [25, 50], 'color': "#f5cdd9"},
+               {'range': [50, 75], 'color': "#e3aabc"},
+               {'range': [75, 100], 'color': "#f587a7"}],
+           }))
+
+# reading csv with developers data
+dev_stats = pd.read_csv('./dev_stats_2020.csv')
 
 # plotly dash app
 # external_stylesheets = ['https://codepen.io/lisa-nalyvaiko/pen/GRjdwrL.css']
@@ -125,85 +112,134 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 indicators_list = ['Client', 'Main Developer', 'Location', 'Seniority', 'Type', 'AM', 'Sales person']
 clients_types = ['Total', 'Project', 'Retainer']
+dev_stats_criteria = ['Developer', 'Location']
+dev_stats_units = ['Hours', 'Dollars']
 
+# Dash app
 app.layout = html.Div(
     className="container-xl",
     children=[
-    html.H1('PU Results 2020'),
+        html.H1('PU Results 2020'),
 
-    dcc.Markdown(
-        '''
-        #### Interactive visual report of PU results in 2020.
-        '''),
+        dcc.Markdown(
+            '''
+            #### Interactive visual report of PU results in 2020.
+            '''),
 
-    dcc.Markdown('''
+        dcc.Markdown('''
         There will be some general summary text later and there will be a couple of sentences of it.
         There will be some general summary text later and there will be a couple of sentences of it.
         There will be some general summary text later and there will be a couple of sentences of it.
     '''),
 
-    dcc.Markdown(f'''
+        dcc.Markdown(f'''
         Our total revenue in 2020 - **${total_revenue}**
     '''),
-    html.Div(
-        className="row",
-        children=[
-            html.Div(
-                className="col col-sm-12 col-lg-4 text-center",
-                children=[
-                    html.H3("Revenue"),
-                    html.H2(f'''
-                ${total_revenue}'''),
-                    f'+{revenue_growth_perc}% comp. to 2019'
-                ]
-            ),
+        html.Div(
+            className="row",
+            children=[
+                html.Div(
+                    className="col col-lg-4 text-center",
+                    children=[
+                        html.H3("Revenue"),
+                        html.H2(
+                            className="fw-bold",
+                            children=[
+                                f'''${total_revenue}''']),
+                        f'+{revenue_growth_perc}% comp. to 2019'
+                    ]
+                ),
 
-            html.Div(
-                className="col col-sm-12 col-lg-4 text-center",
-                children=[
-                    html.H3("Profit, $"),
-                    html.H2(f'''
+                html.Div(
+                    className="col col-lg-4 text-center",
+                    children=[
+                        html.H3("Profit, $"),
+                        html.H2(f'''
                 ${net_profit_2020}'''),
-                    f'+${net_profit_growth} comp. to 2019'
-                ]
+                        f'+${net_profit_growth} comp. to 2019'
+                    ]
+                ),
+
+                html.Div(
+                    className="col col-lg-4 text-center",
+                    children=[
+                        html.H3("Profit, %"),
+                        html.H2(f'''
+              +{net_profit_2020_perc}%'''),
+                        f'{net_profit_2019_perc}% in 2019'
+                    ]
+                ),
+            ]
+        ),
+
+        html.Div(
+            className="row",
+            children=[
+                html.Div(
+                    className="col col-lg-6 text-center",
+                    children=[
+                        dcc.Graph(
+                            id='time_efficiency_graph',
+                            figure=time_efficiency_fig
+                        )
+                    ]
+                )
+                ,
+
+                html.Div(
+                    className="col col-lg-6 text-center",
+                    children=[
+                        dcc.Graph(
+                            figure=revenue_efficiency_graph
+                        ),
+                    ]
+                )
+            ]
+        ),
+
+        html.Div([
+            dcc.Dropdown(
+                id='dev_criterium',
+                options=[{'label': i, 'value': i} for i in dev_stats_criteria],
+                value=dev_stats_criteria[1]
             ),
 
-            html.Div(
-                className="col col-sm-12 col-lg-4 text-center",
-                     children=[
-                         html.H3("Profit, %"),
-                         html.H2(f'''
-              +{net_profit_2020_perc}%'''),
-                         f'{net_profit_2019_perc}% in 2019'
-                     ]
-                     ),
-        ]
-    ),
+            dcc.Dropdown(
+                id='dev_units',
+                options=[{'label': i, 'value': i} for i in dev_stats_units],
+                value=dev_stats_units[1]
+            ),
 
-    html.Div([
-        dcc.Dropdown(
-            id='xaxis-column',
-            options=[{'label': i, 'value': i} for i in indicators_list],
-            value=indicators_list[3]
-        )]),
+            dcc.Graph(
+                id='dev_stats_graph'
+            )
+        ]),
 
-    dcc.Graph(
-        id='revenue_graph'
-    ),
+        html.Div([
+            dcc.Dropdown(
+                id='xaxis-column',
+                options=[{'label': i, 'value': i} for i in indicators_list],
+                value=indicators_list[3]
+            )]),
 
-    html.H3(children='Top 10 clients by revenue'),
+        dcc.Graph(
+            id='revenue_graph'
+        ),
 
-    html.Div([
-        dcc.Dropdown(
-            id='client-type',
-            options=[{'label': i, 'value': i} for i in clients_types],
-            value=clients_types[0]
-        )]),
+        html.H3(children='Top 10 clients by revenue'),
 
-    dcc.Graph(
-        id='top-clients_graph'
-    )
-])
+        html.Div([
+            dcc.Dropdown(
+                id='client-type',
+                options=[{'label': i, 'value': i} for i in clients_types],
+                value=clients_types[0]
+            )]),
+
+        dcc.Graph(
+            id='top-clients_graph'
+        )
+    ]
+)
 
 
 @app.callback(
@@ -238,6 +274,27 @@ def update_revenue_by_clients_graph(client_type):
         y=d['Total price'],
         labels={'x': 'Client', 'y': 'Revenue'},
         color_discrete_sequence=["#a51140", "#a51140"])
+    return figure
+
+
+@app.callback(
+    Output('dev_stats_graph', 'figure'),
+    Input('dev_criterium', 'value'),
+    Input('dev_units', 'value'))
+def update_dev_stats_graph(dev_criterium, dev_units):
+    d = dev_stats
+    if dev_units == "Hours":
+        figure = go.Figure(data=[
+            go.Bar(name="Unbilled hours", x=dev_stats[dev_criterium], y=dev_stats['Unbilled']),
+            go.Bar(name='Billed hours', x=dev_stats[dev_criterium], y=dev_stats['Billed hours'])
+        ])
+        figure.update_layout(barmode='stack')
+        return figure
+    figure = go.Figure(data=[
+        go.Bar(name="Developers cost", x=dev_stats[dev_criterium], y=dev_stats['Cost']),
+        go.Bar(name='Revenue generated by developer', x=dev_stats[dev_criterium], y=dev_stats['Revenue'])
+    ])
+    figure.update_layout(barmode='stack')
     return figure
 
 

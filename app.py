@@ -4,6 +4,7 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
+import dash_bootstrap_components as dbc
 import plotly.express as px
 #
 # path_to_credential = './google_credentials.json'
@@ -75,6 +76,42 @@ clients_by_type = clients_by_type.replace({'T&M':'Project','FP':'Project'}) \
                                 .groupby(['Client','Type'],as_index=False) \
                                 .agg({'Total price':'sum'}) \
                                 .sort_values(by='Total price',ascending=False)
+
+#reading csv files with team data
+pu_data_2019 = pd.read_csv('~/pu_data_2019.csv')
+pu_data_2020 = pd.read_csv('~/pu_data_2020.csv')
+
+#key metrics for report
+revenue_2020 = round(pu_data_2020.turnover.sum())
+revenue_2019 = round(pu_data_2019.turnover.sum())
+
+net_profit_2019 = round(pu_data_2019.net_profit.sum())
+net_profit_2020 = round(pu_data_2020.net_profit.sum())
+
+expenses_2020 = round(pu_data_2020.total_costs_total_oh.sum())
+expenses_2019 = round(pu_data_2019.total_costs_total_oh.sum())
+
+net_profit_2020_perc = round(net_profit_2020 / expenses_2020,2)
+net_profit_2019_perc = round((net_profit_2019 / expenses_2019) * 100,2)
+
+team_size_2020 = 57
+team_size_2019 = 44
+team_growth_2020 = round((team_size_2020 - team_size_2019)/team_size_2019 * 100)
+
+revenue_growth_2020 = round((revenue_2020-revenue_2019)/revenue_2019 * 100)
+revenue_per_dev_2020 = round(pu_data_2020.revenue_per_person.median())
+revenue_per_dev_2019 = round(pu_data_2020.revenue_per_person.median())
+
+median_h_cost_2020 = round(pu_data_2020['avg_h_cost'].median(),2)
+median_h_rate_2020 = round(revenue['Total price'].sum() / revenue['Hours sold'].sum(),2)
+
+total_unbilled_h_2020 = round(pu_data_2020.total_hours.sum()-revenue['Hours sold'].sum())
+unbilled_h_median_2020 = pu_data_2020.unbilled_hours.median()
+unbilled_h_max_2020 = pu_data_2020.unbilled_hours.max()
+unbilled_h_min_2020 = pu_data_2020.unbilled_hours.min()
+efficiency_hours_2020 = round(pu_data_2020.billed_hours.sum() / pu_data_2020.total_hours.sum() * 100)
+
+client_number_2020 = revenue['Client'].nunique()
 
 #plotly dash app
 #external_stylesheets = ['https://codepen.io/lisa-nalyvaiko/pen/GRjdwrL.css']

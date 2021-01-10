@@ -118,7 +118,9 @@ dev_stats_units = ['Hours', 'Dollars']
 app.layout = html.Div(
     className="container-xl",
     children=[
-        html.H1('PU Results 2020'),
+        html.H1(
+            className='title',
+            children='PU Results 2020'),
 
         dcc.Markdown(
             '''
@@ -138,7 +140,7 @@ app.layout = html.Div(
             className="row",
             children=[
                 html.Div(
-                    className="col col-lg-4 text-center",
+                    className="col col-lg-4 text-center kpi-block",
                     children=[
                         html.H3("Revenue"),
                         html.H2(
@@ -150,7 +152,7 @@ app.layout = html.Div(
                 ),
 
                 html.Div(
-                    className="col col-lg-4 text-center",
+                    className="col col-lg-4 text-center kpi-block",
                     children=[
                         html.H3("Profit, $"),
                         html.H2(f'''
@@ -160,7 +162,7 @@ app.layout = html.Div(
                 ),
 
                 html.Div(
-                    className="col col-lg-4 text-center",
+                    className="col col-lg-4 text-center kpi-block",
                     children=[
                         html.H3("Profit, %"),
                         html.H2(f'''

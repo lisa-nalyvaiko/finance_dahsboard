@@ -423,3 +423,12 @@ display:flex;
 flex-wrap: wrap;
 align-items: justify:content;
 }
+
+.kpi-block h2 {
+font-weight: 600;
+color: #a51140;}
+
+.title {
+color:#a51140;
+font-weight: 600;
+}

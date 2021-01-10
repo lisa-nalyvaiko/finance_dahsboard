@@ -79,7 +79,7 @@ time_efficiency_fig = go.Figure(go.Indicator(
     domain={'x': [0, 1], 'y': [0, 1]},
     value=efficiency_hours_2020,
     mode="gauge+number",
-    title={'text': "Time efficiency, %"},
+    title={'text': "Time efficiency, %<br>Total time billed to total time spent"},
     gauge={'axis': {'range': [None, 100]},
            'bar': {'color': "#a51140"},
            'steps': [
@@ -93,7 +93,7 @@ revenue_efficiency_graph = go.Figure(go.Indicator(
     domain={'x': [0, 1], 'y': [0, 1]},
     value=efficiency_revenue_2020,
     mode="gauge+number",
-    title={'text': "Revenue efficiency, %"},
+    title={'text': "Revenue efficiency, %<br>Revenue generated to potential revenue"},
     gauge={'axis': {'range': [None, 100]},
            'bar': {'color': "#a51140"},
            'steps': [
@@ -102,6 +102,7 @@ revenue_efficiency_graph = go.Figure(go.Indicator(
                {'range': [50, 75], 'color': "#e3aabc"},
                {'range': [75, 100], 'color': "#f587a7"}],
            }))
+
 
 # reading csv with developers data
 dev_stats = pd.read_csv('./dev_stats_2020.csv')

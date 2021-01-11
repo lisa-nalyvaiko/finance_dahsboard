@@ -1,5 +1,4 @@
 import pandas as pd
-from sheetfu import SpreadsheetApp
 import os
 import dash
 import dash_auth
@@ -9,10 +8,11 @@ from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
 import plotly.express as px
 import plotly.graph_objects as go
+import dash_table
 
 # reading csv with invoices data
 revenue = pd.read_csv('./revenue.csv')
-revenue = revenue.replace({'IT': 'IV','Aleksander Martynenko':'Oleksandr Martynenko','Oleg Kozyk':'Oleh Kozyk'})
+revenue = revenue.replace({'IT': 'IV', 'Aleksander Martynenko': 'Oleksandr Martynenko', 'Oleg Kozyk': 'Oleh Kozyk'})
 total_revenue = '{0:,}'.format(int(round(revenue['Total price'].sum(), 0)))
 
 # Clients stats and visualisation
@@ -47,7 +47,6 @@ revenue_2019 = int(round(pu_data_2019.turnover.sum()))
 total_revenue_2019 = '{0:,}'.format(revenue_2019)
 revenue_growth_perc = int(round((revenue_2020 - revenue_2019) / revenue_2019 * 100))
 
-
 net_profit_2019 = int(round(pu_data_2019.net_profit.sum()))
 net_profit_2020 = int((pu_data_2020.net_profit.sum()))
 net_profit_growth = int(net_profit_2020 - net_profit_2019)
@@ -61,7 +60,6 @@ total_expenses = '{0:,}'.format(expenses_2020)
 expenses_dif = abs(expenses_2020 - expenses_2019)
 expenses_dif_perc = round(expenses_dif / expenses_2019 * 100, 2)
 total_expenses_2019 = '{0:,}'.format(expenses_2019)
-
 
 net_profit_2020_perc = round((net_profit_2020 / expenses_2020) * 100, 2)
 net_profit_2019_perc = round((net_profit_2019 / expenses_2019) * 100, 2)
@@ -118,6 +116,16 @@ revenue_efficiency_graph = go.Figure(go.Indicator(
 # reading csv with developers data
 dev_stats = pd.read_csv('./dev_stats_2020.csv')
 
+# df for detailed data table
+pu_2020_for_report = pu_data_2020[['month', 'turnover', 'total_costs_total_oh', 'net_profit', 'net_profit_perc']]
+pu_2020_for_report.rename(columns={
+    'month': 'Month',
+    'turnover': 'Turnover, $',
+    'total_costs_total_oh': 'Total Costs',
+    'net_profit': 'Net Profit, $',
+    'net_profit_perc': 'Net Profit, %',
+}, inplace=True)
+
 # plotly dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
@@ -146,7 +154,7 @@ app.layout = html.Div(
 
         dcc.Markdown(
             '''
-            #### Interactive visual report of PU results in 2020.
+            ### Interactive visual report of PU results in 2020.
             '''),
 
         dcc.Markdown('''
@@ -278,12 +286,57 @@ app.layout = html.Div(
 
         dcc.Graph(
             id='top-clients_graph'
+        ),
+
+        html.Div(
+            html.H3("Monthly P&L data for the reference"),
+        ),
+
+        html.Div(
+            className="style_cell",
+            children=[
+                dash_table.DataTable(
+                    id='table',
+                    columns=[{"name": i, "id": i} for i in pu_2020_for_report.columns],
+                    data=pu_2020_for_report.to_dict('records'),
+                    style_data_conditional=[
+                        {
+                            'if': {
+                                'filter_query': '{Net Profit, $} < 0',
+                                'column_id': 'Net Profit, $'
+                            },
+                            'backgroundColor': '#f2b6be'
+                        },
+                        {
+                            'if': {
+                                'filter_query': '{Net Profit, $} > 0',
+                                'column_id': 'Net Profit, $'
+                            },
+                            'backgroundColor': '#b4e0c8'
+                        },
+
+                        {
+                            'if': {
+                                'filter_query': '{Net Profit, %} < 0',
+                                'column_id': 'Net Profit, %'
+                            },
+                            'backgroundColor': '#f2b6be'
+                        },
+                        {
+                            'if': {
+                                'filter_query': '{Net Profit, %} > 0',
+                                'column_id': 'Net Profit, %'
+                            },
+                            'backgroundColor': '#b4e0c8'
+                        }]
+                )
+            ]
         )
     ]
 )
 
 # callback function for revenue detailed graph update
-@ app.callback(
+@app.callback(
 Output('revenue_graph', 'figure'),
 Input('xaxis-column', 'value'))
 def update_revenue_graph(xaxis_column_name):

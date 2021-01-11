@@ -432,3 +432,9 @@ color: #a51140;}
 color:#a51140;
 font-weight: 600;
 }
+
+.style_cell {
+font-family: Arial;
+font-size: 14px;
+text-align: right
+}

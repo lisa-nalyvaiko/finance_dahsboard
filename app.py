@@ -12,7 +12,7 @@ import plotly.graph_objects as go
 
 # reading csv with invoices data
 revenue = pd.read_csv('./revenue.csv')
-revenue = revenue.replace({'IT': 'IV'})
+revenue = revenue.replace({'IT': 'IV','Aleksander Martynenko':'Oleksandr Martynenko','Oleg Kozyk':'Oleh Kozyk'})
 total_revenue = '{0:,}'.format(int(round(revenue['Total price'].sum(), 0)))
 
 # Clients stats and visualisation
@@ -43,19 +43,25 @@ pu_data_2020['avg_h_cost'] = pu_data_2020.total_hours / pu_data_2020.total_costs
 
 # key metrics for report
 revenue_2020 = round(pu_data_2020.turnover.sum())
-revenue_2019 = round(pu_data_2019.turnover.sum())
+revenue_2019 = int(round(pu_data_2019.turnover.sum()))
+total_revenue_2019 = '{0:,}'.format(revenue_2019)
 revenue_growth_perc = int(round((revenue_2020 - revenue_2019) / revenue_2019 * 100))
+
 
 net_profit_2019 = int(round(pu_data_2019.net_profit.sum()))
 net_profit_2020 = int((pu_data_2020.net_profit.sum()))
 net_profit_growth = int(net_profit_2020 - net_profit_2019)
 net_profit_growth_perc = round(net_profit_growth / net_profit_2019 * 100)
+formatted_profit_2019 = '{0:,}'.format(net_profit_2019)
+formatted_profit_2020 = '{0:,}'.format(net_profit_2020)
 
 expenses_2020 = int(round(pu_data_2020.total_costs_total_oh.sum()))
 expenses_2019 = int(round(pu_data_2019.total_costs_total_oh.sum()))
 total_expenses = '{0:,}'.format(expenses_2020)
 expenses_dif = abs(expenses_2020 - expenses_2019)
 expenses_dif_perc = round(expenses_dif / expenses_2019 * 100, 2)
+total_expenses_2019 = '{0:,}'.format(expenses_2019)
+
 
 net_profit_2020_perc = round((net_profit_2020 / expenses_2020) * 100, 2)
 net_profit_2019_perc = round((net_profit_2019 / expenses_2019) * 100, 2)
@@ -163,7 +169,7 @@ app.layout = html.Div(
                             className="fw-bold",
                             children=[
                                 f'''${total_revenue}''']),
-                        f'+{revenue_growth_perc}% comp. to 2019'
+                        f'${total_revenue_2019} in 2019 (+{revenue_growth_perc}%)'
                     ]
                 ),
 
@@ -172,8 +178,8 @@ app.layout = html.Div(
                     children=[
                         html.H3("Profit, $"),
                         html.H2(f'''
-                ${net_profit_2020}'''),
-                        f'+${net_profit_growth} ({net_profit_growth_perc}%) comp. to 2019'
+                ${formatted_profit_2020}'''),
+                        f'${formatted_profit_2019} in 2019'
                     ]
                 ),
 
@@ -183,7 +189,7 @@ app.layout = html.Div(
                         html.H3("Expenses, $"),
                         html.H2(f'''
                 ${total_expenses}'''),
-                        f'+${expenses_dif} ({expenses_dif_perc}%) comp. to 2019'
+                        f'${total_expenses_2019} in 2019 (+{expenses_dif_perc}%) '
                     ]
                 ),
 
@@ -281,7 +287,6 @@ app.layout = html.Div(
 Output('revenue_graph', 'figure'),
 Input('xaxis-column', 'value'))
 def update_revenue_graph(xaxis_column_name):
-    print(xaxis_column_name)
     grouped_df = revenue.groupby(xaxis_column_name, as_index=False).agg({'Total price': 'sum'})
     figure = px.bar(
         grouped_df,

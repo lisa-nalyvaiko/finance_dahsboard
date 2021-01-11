@@ -46,12 +46,16 @@ revenue_2020 = round(pu_data_2020.turnover.sum())
 revenue_2019 = round(pu_data_2019.turnover.sum())
 revenue_growth_perc = int(round((revenue_2020 - revenue_2019) / revenue_2019 * 100))
 
-net_profit_2019 = round(pu_data_2019.net_profit.sum())
-net_profit_2020 = round(pu_data_2020.net_profit.sum())
+net_profit_2019 = int(round(pu_data_2019.net_profit.sum()))
+net_profit_2020 = int((pu_data_2020.net_profit.sum()))
 net_profit_growth = int(net_profit_2020 - net_profit_2019)
+net_profit_growth_perc = round(net_profit_growth / net_profit_2019 * 100)
 
-expenses_2020 = round(pu_data_2020.total_costs_total_oh.sum())
-expenses_2019 = round(pu_data_2019.total_costs_total_oh.sum())
+expenses_2020 = int(round(pu_data_2020.total_costs_total_oh.sum()))
+expenses_2019 = int(round(pu_data_2019.total_costs_total_oh.sum()))
+total_expenses = '{0:,}'.format(expenses_2020)
+expenses_dif = abs(expenses_2020 - expenses_2019)
+expenses_dif_perc = round(expenses_dif / expenses_2019 * 100, 2)
 
 net_profit_2020_perc = round((net_profit_2020 / expenses_2020) * 100, 2)
 net_profit_2019_perc = round((net_profit_2019 / expenses_2019) * 100, 2)
@@ -123,7 +127,7 @@ auth = dash_auth.BasicAuth(
 server = app.server
 indicators_list = ['Client', 'Main Developer', 'Location', 'Seniority', 'Type', 'AM', 'Sales person']
 clients_types = ['Total', 'Project', 'Retainer']
-dev_stats_criteria = ['Developer', 'Location']
+dev_stats_criteria = ['Developer', 'Location', 'Seniority']
 dev_stats_units = ['Hours', 'Dollars']
 
 # Dash app
@@ -152,7 +156,7 @@ app.layout = html.Div(
             className="row",
             children=[
                 html.Div(
-                    className="col col-lg-4 text-center kpi-block",
+                    className="col col-lg-3 text-center kpi-block",
                     children=[
                         html.H3("Revenue"),
                         html.H2(
@@ -164,24 +168,34 @@ app.layout = html.Div(
                 ),
 
                 html.Div(
-                    className="col col-lg-4 text-center kpi-block",
+                    className="col col-lg-3 text-center kpi-block",
                     children=[
                         html.H3("Profit, $"),
                         html.H2(f'''
                 ${net_profit_2020}'''),
-                        f'+${net_profit_growth} comp. to 2019'
+                        f'+${net_profit_growth} ({net_profit_growth_perc}%) comp. to 2019'
                     ]
                 ),
 
                 html.Div(
-                    className="col col-lg-4 text-center kpi-block",
+                    className="col col-lg-3 text-center kpi-block",
+                    children=[
+                        html.H3("Expenses, $"),
+                        html.H2(f'''
+                ${total_expenses}'''),
+                        f'+${expenses_dif} ({expenses_dif_perc}%) comp. to 2019'
+                    ]
+                ),
+
+                html.Div(
+                    className="col col-lg-3 text-center kpi-block",
                     children=[
                         html.H3("Profit, %"),
                         html.H2(f'''
               +{net_profit_2020_perc}%'''),
                         f'{net_profit_2019_perc}% in 2019'
                     ]
-                ),
+                )
             ]
         ),
 
@@ -262,10 +276,10 @@ app.layout = html.Div(
     ]
 )
 
-
-@app.callback(
-    Output('revenue_graph', 'figure'),
-    Input('xaxis-column', 'value'))
+# callback function for revenue detailed graph update
+@ app.callback(
+Output('revenue_graph', 'figure'),
+Input('xaxis-column', 'value'))
 def update_revenue_graph(xaxis_column_name):
     print(xaxis_column_name)
     grouped_df = revenue.groupby(xaxis_column_name, as_index=False).agg({'Total price': 'sum'})
@@ -278,6 +292,7 @@ def update_revenue_graph(xaxis_column_name):
     return figure
 
 
+# callback function for top-clients graph update
 @app.callback(
     Output('top-clients_graph', 'figure'),
     Input('client-type', 'value'))
@@ -298,6 +313,7 @@ def update_revenue_by_clients_graph(client_type):
     return figure
 
 
+# callback function for "developers data detailed" graph
 @app.callback(
     Output('dev_stats_graph', 'figure'),
     Input('dev_criterium', 'value'),

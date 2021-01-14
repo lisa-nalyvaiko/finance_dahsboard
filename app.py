@@ -185,7 +185,7 @@ app.layout = html.Div(
                 html.Div(
                     className="col col-lg-3 text-center kpi-block",
                     children=[
-                        html.H3("Profit, $"),
+                        html.H3("Net profit, $"),
                         html.H2(f'''
                 ${formatted_profit_2020}'''),
                         f'${formatted_profit_2019} in 2019'

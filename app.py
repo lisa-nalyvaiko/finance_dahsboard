@@ -159,10 +159,17 @@ app.layout = html.Div(
             '''),
 
         dcc.Markdown('''
-        There will be some general summary text later and there will be a couple of sentences of it.
-        There will be some general summary text later and there will be a couple of sentences of it.
-        There will be some general summary text later and there will be a couple of sentences of it.
+        Below you can find some key results for 2020, as well as some breakdown stats. There's also
+        a table with monthly data at the bottom. Time efficiency stands for the ratio of the total working time we had
+        in 2020 and the billed time. Revenue efficiency stands for our 2020 revenue to the revenue we could have 
+        generated.
     '''),
+
+        dcc.Markdown('''
+       Developers data on time and revenue efficiency graph shows how revenue, costs, spent time and billed time are
+       divided on different criteria. The next graph dynamically visualize data on how our revenue is divided between locations, developers, seniority
+       level.
+   '''),
 
         dcc.Markdown(f'''
         Our total revenue in 2020 - **${total_revenue_2020}**

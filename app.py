@@ -126,6 +126,7 @@ pu_2020_for_report.rename(columns={
     'net_profit': 'Net Profit, $',
     'net_profit_perc': 'Net Profit, %',
 }, inplace=True)
+pu_2020_for_report['Turnover, $'] = round(pu_2020_for_report['Turnover, $'])
 
 # plotly dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])

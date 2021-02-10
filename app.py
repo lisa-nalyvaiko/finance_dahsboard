@@ -349,7 +349,7 @@ app.layout = html.Div(
 Output('revenue_graph', 'figure'),
 Input('xaxis-column', 'value'))
 def update_revenue_graph(xaxis_column_name):
-    grouped_df = revenue.groupby(xaxis_column_name, as_index=False).agg({'Total price': 'sum'})
+    grouped_df = revenue.groupby(xaxis_column_name, as_index=False).agg({'Total price': 'sum'}).sort_values(by='Total price',ascending=False)
     figure = px.bar(
         grouped_df,
         x=grouped_df.iloc[:, 0],
